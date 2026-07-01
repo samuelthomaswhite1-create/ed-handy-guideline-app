@@ -27,7 +27,7 @@ licensing.
 
 Deployed via GitHub Pages from the `app/` folder on every push to `main`.
 
-**URL:** https://samuelthomaswhite1.github.io/ed-handy-guideline-app/
+**URL:** https://samuelthomaswhite1-create.github.io/ed-handy-guideline-app/
 
 Install to iPhone / Android home screen via "Add to Home Screen" — the app
 ships a web manifest so it launches standalone with its own icon.
