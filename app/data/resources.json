@@ -1,0 +1,382 @@
+{
+  "_note": "Quick-links sidebar + in-app reference pages. To add a new external resource: append to `resources` with type 'pdf' or 'link' and a `url`. To add a new in-app reference: add an entry to `resources` with type 'in-app' and matching `internal_route`, plus the page content in `in_app_pages` keyed by id. Resources with `pin_to_categories` also appear as pinned cards on those category views in the main guideline section.",
+  "schema_version": 2,
+  "categories": [
+    {
+      "id": "drug-references",
+      "label": "Drug & infusion references",
+      "icon": "vial"
+    },
+    {
+      "id": "trauma-references",
+      "label": "Trauma quick references",
+      "icon": "bandage"
+    },
+    {
+      "id": "airway-references",
+      "label": "Airway & intubation",
+      "icon": "lungs"
+    }
+  ],
+  "resources": [
+    {
+      "id": "arv-infusions-table",
+      "category": "drug-references",
+      "title": "ARV Infusions Table",
+      "subtitle": "36 adult IV infusions — concentrations, indications, bolus & infusion rates",
+      "source": "Adult Retrieval Victoria (Ambulance Victoria)",
+      "last_updated": "January 2019",
+      "type": "pdf",
+      "url": "https://www.ambulance.vic.gov.au/sites/default/files/2025-05/ARV-infusions-table.pdf"
+    },
+    {
+      "id": "anticoag-reversal-hi",
+      "category": "trauma-references",
+      "title": "Anticoag reversal · head injury",
+      "subtitle": "In-app pathway by drug class (adult). Adapted from REACH.",
+      "source": "Adapted from REACH Victorian State Trauma System",
+      "last_updated": "verified 2026-06-30",
+      "type": "in-app",
+      "internal_route": "#/resources/anticoag-reversal-hi",
+      "icon": "activity",
+      "pin_to_categories": ["trauma-injury", "resus-collapse", "neuro"]
+    },
+    {
+      "id": "reach-anticoag-hi",
+      "category": "trauma-references",
+      "title": "REACH: full anticoag-in-trauma guideline",
+      "subtitle": "Live source — Head injury and oral anticoagulants",
+      "source": "Victorian State Trauma System (REACH)",
+      "last_updated": "live source",
+      "type": "link",
+      "url": "https://trauma.reach.vic.gov.au/specialist/anticoagulation-in-trauma/head-injury-and-oral-anticoagulants/"
+    },
+    {
+      "id": "alfred-intubation-checklist",
+      "category": "airway-references",
+      "title": "Intubation checklist (interactive)",
+      "subtitle": "Alfred ICU · check off each item pre-intubation",
+      "source": "Alfred ICU Airway Team",
+      "last_updated": "v15 · 17 May 2017",
+      "type": "in-app",
+      "internal_route": "#/resources/alfred-intubation-checklist",
+      "icon": "activity",
+      "pin_to_categories": ["airway-breathing", "resus-collapse", "procedures-resources"]
+    },
+    {
+      "id": "alfred-intubation-checklist-source",
+      "category": "airway-references",
+      "title": "Alfred ICU intubation checklist (source card)",
+      "subtitle": "Original card + editable PowerPoint at intensiveblog.com",
+      "source": "Alfred ICU Airway Team via intensiveblog",
+      "last_updated": "v15 · 17 May 2017",
+      "type": "link",
+      "url": "https://intensiveblog.com/alfred-icu-intubation-checklist/"
+    }
+  ],
+  "in_app_pages": {
+    "alfred-intubation-checklist": {
+      "type": "checklist",
+      "title": "Intubation checklist",
+      "subtitle": "Alfred ICU · pre-intubation safety",
+      "warning": "Two airway-competent doctors MUST attend. CICO = can't intubate, can't oxygenate — proceed to cricothyroidotomy.",
+      "quick_ref": [
+        { "label": "Alfred Anaesthetics CIC", "value": "x44627" }
+      ],
+      "images": [
+        {
+          "label": "Side 1 · checklist",
+          "url": "https://intensiveblog.com/wp-content/uploads/2017/08/Alfred-ICU-Intubation-Checklist-v14-side-1.jpg"
+        },
+        {
+          "label": "Side 2 · reminders",
+          "url": "https://intensiveblog.com/wp-content/uploads/2017/08/Alfred-ICU-Intubation-Checklist-v14-side-2.jpg"
+        }
+      ],
+      "sections": [
+        {
+          "id": "assess",
+          "label": "Assess",
+          "colour": "#c0392b",
+          "items": [
+            { "id": "diff-airway", "text": "Is a difficult airway predicted?" },
+            { "id": "phys-compromise", "text": "Is there risk of physiological compromise?", "sub": [
+              { "id": "cv-instability", "text": "Cardiovascular instability" },
+              { "id": "hypoxaemia",     "text": "Hypoxaemia" },
+              { "id": "acidaemia",      "text": "Acidaemia" },
+              { "id": "raised-icp",     "text": "Increased ICP" },
+              { "id": "aspiration",     "text": "Aspiration" },
+              { "id": "underlying",     "text": "Underlying disease" },
+              { "id": "allergies",      "text": "Allergies" }
+            ]},
+            { "id": "team-aware", "text": "Are the ICU consultant and ANUM aware?" },
+            { "id": "anaes-ent",  "text": "Do anaesthetics or ENT need to be contacted?" }
+          ]
+        },
+        {
+          "id": "equipment",
+          "label": "Equipment",
+          "colour": "#d35400",
+          "items": [
+            { "id": "monitoring", "text": "Is monitoring ready?", "sub": [
+              { "id": "spo2",  "text": "Pulse oximetry (SpO₂)" },
+              { "id": "etco2", "text": "ETCO₂" },
+              { "id": "bp",    "text": "BP (cycle q1min if NIBP)" },
+              { "id": "ecg",   "text": "ECG" }
+            ]},
+            { "id": "equip-check", "text": "Is equipment checked & ready?", "sub": [
+              { "id": "bvm",         "text": "BVM with O₂ flowing" },
+              { "id": "adjuncts",    "text": "Airway adjuncts" },
+              { "id": "sga",         "text": "Supraglottic airway device" },
+              { "id": "ett",         "text": "ETT × 2 (incl. 1 size down)" },
+              { "id": "laryngo",     "text": "Laryngoscopes × 2 (direct / video)" },
+              { "id": "bougie",      "text": "Bougie" },
+              { "id": "cico-kit",    "text": "CICO rescue equipment" },
+              { "id": "suction",     "text": "Suction" },
+              { "id": "stethoscope", "text": "Stethoscope" }
+            ]},
+            { "id": "drugs-lines", "text": "Are drugs & lines ready?", "sub": [
+              { "id": "iv-fluids",     "text": "IV checked & fluids on pumpset" },
+              { "id": "induction",     "text": "Induction & paralytic drugs" },
+              { "id": "inopressors",   "text": "Inopressors" },
+              { "id": "post-sedation", "text": "Post-intubation sedation" }
+            ]}
+          ]
+        },
+        {
+          "id": "team",
+          "label": "Team",
+          "colour": "#e67e22",
+          "note": "Two airway-competent doctors MUST attend.",
+          "items": [
+            { "id": "roles", "text": "Have team roles been assigned?", "sub": [
+              { "id": "leader",       "text": "Team leader" },
+              { "id": "intubator-1",  "text": "1st intubator" },
+              { "id": "intubator-2",  "text": "2nd intubator" },
+              { "id": "airway-asst",  "text": "Airway assistant" },
+              { "id": "cico-rescuer", "text": "CICO rescuer" },
+              { "id": "drug-admin",   "text": "Drug administrator" },
+              { "id": "senior-nurse", "text": "Senior support nurse" },
+              { "id": "cricoid",      "text": "± Cricoid pressure" },
+              { "id": "mils",         "text": "± Manual in-line stabilisation" }
+            ]}
+          ]
+        },
+        {
+          "id": "plan",
+          "label": "Plan",
+          "colour": "#c9a227",
+          "items": [
+            { "id": "optimised", "text": "Is the patient optimised?", "sub": [
+              { "id": "position",      "text": "Position" },
+              { "id": "oxygenation",   "text": "Oxygenation" },
+              { "id": "ventilation",   "text": "Ventilation" },
+              { "id": "haemodynamics", "text": "Haemodynamics" },
+              { "id": "ngt",           "text": "NGT suctioned" }
+            ]},
+            { "id": "physio-plan",  "text": "What are the plans for anticipated physiological compromise?" },
+            { "id": "abcd-plans",   "text": "What are Plans A, B, C & D if the airway is difficult?" },
+            { "id": "drugs-doses",  "text": "What drugs / doses are to be given? When and how?" },
+            { "id": "questions",    "text": "Does anyone have questions or concerns?" }
+          ]
+        }
+      ],
+      "source_url": "https://intensiveblog.com/alfred-icu-intubation-checklist/",
+      "source_label": "Alfred ICU Airway Team via intensiveblog.com",
+      "attribution": {
+        "authors": "Alfred ICU Airway Team",
+        "upstream": "Modified from the RTIC Severn Checklist",
+        "version": "Version 15 · 17 May 2017",
+        "licence": "Licensed CC BY-NC-SA 4.0"
+      },
+      "verified_on": "2026-07-01",
+      "footer_note": "In-app copy provided under CC BY-NC-SA 4.0. Do not use commercially. Verify against the source card before clinical use."
+    },
+    "anticoag-reversal-hi": {
+      "type": "pathway-grid",
+      "title": "Anticoag reversal in head injury",
+      "subtitle": "Adult patient with intracranial haemorrhage on CT",
+      "warning": "Consult ARV (Adult Retrieval Victoria) before administering any reversal agent. Always check the live REACH source — doses may have been updated.",
+      "trigger": {
+        "primary": "Adult on oral anticoagulant or antiplatelet",
+        "secondary": "Head injury · ICH confirmed on CT"
+      },
+      "default_class": "warfarin",
+      "classes": [
+        {
+          "id": "warfarin",
+          "label": "Warfarin",
+          "subtitle": "Vitamin K antagonist (VKA)",
+          "examples": ["Coumadin", "Marevan"],
+          "source_label": "Head injury and oral anticoagulants",
+          "source_url": "https://trauma.reach.vic.gov.au/specialist/anticoagulation-in-trauma/head-injury-and-oral-anticoagulants/",
+          "steps": [
+            {
+              "tag": "PREFERRED",
+              "tone": "primary",
+              "title": "Prothrombinex-VF (PCC)",
+              "dose": "35–50 units/kg IV",
+              "note": "First-line. Reverses elevated INR within 15 min. Use the maximum 50 u/kg dose if bleeding is life-threatening."
+            },
+            {
+              "tag": "ALWAYS ADD",
+              "tone": "primary",
+              "title": "Vitamin K",
+              "dose": "5–10 mg IV",
+              "note": "Sustains the reversal achieved by PCC (PCC has a short half-life). IV onset faster than oral."
+            },
+            {
+              "tag": "IF LIFE-THREATENING BLEEDING",
+              "tone": "danger",
+              "title": "Add FFP",
+              "dose": "150–300 mL IV infusion",
+              "note": "FFP not routinely needed in isolated TBI — only add when bleeding is life-threatening."
+            },
+            {
+              "tag": "IF PCC UNAVAILABLE",
+              "tone": "neutral",
+              "title": "FFP (substitute)",
+              "dose": "15 mL/kg IV infusion",
+              "note": "Allow time for blood typing (or use group AB), thawing, and infusion."
+            }
+          ],
+          "after": "Restart anticoagulation only after neurosurgical discussion."
+        },
+        {
+          "id": "dabigatran",
+          "label": "Dabigatran",
+          "subtitle": "Direct thrombin inhibitor",
+          "examples": ["Pradaxa"],
+          "source_label": "Management agents · Idarucizumab",
+          "source_url": "https://trauma.reach.vic.gov.au/specialist/anticoagulation-in-trauma/management-agents/#idarucizumab",
+          "steps": [
+            {
+              "tag": "PREFERRED ANTIDOTE",
+              "tone": "primary",
+              "title": "Idarucizumab (Praxbind)",
+              "dose": "5 g IV total",
+              "note": "Given as 2 × 2.5 g IV infusions, each over 5–10 min, no more than 15 min apart. Effect immediate; lasts ~24 h. Requires haematology approval."
+            },
+            {
+              "tag": "AVAILABILITY",
+              "tone": "warn",
+              "title": "Limited stock (Victoria)",
+              "dose": "",
+              "note": "Idarucizumab is only stocked at The Alfred and Royal Melbourne (Major Trauma Centres). Plan for transfer if not on-site."
+            },
+            {
+              "tag": "RESCUE OPTION",
+              "tone": "neutral",
+              "title": "Haemodialysis",
+              "dose": "≈ 60% drug removal over 3–4 h",
+              "note": "Consider if excessively prolonged APTT (>80 s), dabigatran level >500 ng/mL, or impaired renal function."
+            },
+            {
+              "tag": "DO NOT USE",
+              "tone": "danger",
+              "title": "PCC (Prothrombinex-VF)",
+              "dose": "",
+              "note": "PCC is NOT suggested for direct thrombin inhibitors (dabigatran)."
+            }
+          ]
+        },
+        {
+          "id": "xa-inhibitor",
+          "label": "Xa inhibitor",
+          "subtitle": "Direct factor Xa inhibitors",
+          "examples": ["Rivaroxaban (Xarelto)", "Apixaban (Eliquis)", "Edoxaban"],
+          "source_label": "Management agents + Early management",
+          "source_url": "https://trauma.reach.vic.gov.au/specialist/anticoagulation-in-trauma/management-agents/",
+          "steps": [
+            {
+              "tag": "NO SPECIFIC ANTIDOTE",
+              "tone": "warn",
+              "title": "No direct antidote listed by REACH",
+              "dose": "",
+              "note": "Andexanet alfa is not listed in the REACH pathway. Focus is on resuscitation, factor replacement, and adjuncts below."
+            },
+            {
+              "tag": "ADJUNCT",
+              "tone": "primary",
+              "title": "Tranexamic acid (TXA)",
+              "dose": "15–30 mg/kg IV, then 1 mg/kg/hr infusion",
+              "note": "Continue infusion until bleeding controlled. Evidence limited — do not delay resuscitation."
+            },
+            {
+              "tag": "RESCUE — CRITICAL BLEEDING",
+              "tone": "danger",
+              "title": "Recombinant factor VIIa (NovoSeven)",
+              "dose": "50 mcg/kg IV bolus",
+              "note": "Off-label. Prerequisites before use: Hct >24%, pH >7.2, platelets >50 × 10⁹/L, fibrinogen >1.0 g/L. Follow local protocol; haematology discussion."
+            },
+            {
+              "tag": "PARTIAL OPTION",
+              "tone": "neutral",
+              "title": "PCC (Prothrombinex-VF)",
+              "dose": "Small doses — extreme cases",
+              "note": "Cannot fully reverse Xa inhibitors. May act as partial bypass agent at high doses. Off-label; thrombotic risk."
+            },
+            {
+              "tag": "ALTERNATIVE",
+              "tone": "neutral",
+              "title": "FEIBA",
+              "dose": "50 IU/kg",
+              "note": "Off-label use; thrombotic risk unclear. Considered for life-threatening bleeding when other options unavailable."
+            }
+          ]
+        },
+        {
+          "id": "antiplatelet",
+          "label": "Antiplatelet",
+          "subtitle": "Lower bleed risk than oral anticoagulants",
+          "examples": ["Aspirin", "Clopidogrel (Plavix)", "Ticagrelor (Brilinta)", "Prasugrel (Effient)", "Dipyridamole"],
+          "source_label": "Early management",
+          "source_url": "https://trauma.reach.vic.gov.au/specialist/anticoagulation-in-trauma/early-management/",
+          "steps": [
+            {
+              "tag": "CONSIDER",
+              "tone": "primary",
+              "title": "Platelet transfusion",
+              "dose": "Per local protocol",
+              "note": "Suggested for patients on antiplatelet therapy when significant bleeding, or platelets <50 × 10⁹/L."
+            },
+            {
+              "tag": "NO SPECIFIC ANTIDOTE",
+              "tone": "warn",
+              "title": "No pharmacological reversal listed",
+              "dose": "",
+              "note": "REACH does not specify an antiplatelet reversal regimen for head injury. Supportive care, local haemostasis, and surgical/radiological intervention as indicated."
+            }
+          ]
+        }
+      ],
+      "global_steps_before": [
+        {
+          "title": "Initial workup",
+          "items": [
+            "CT brain — perform on every anticoagulated head injury patient",
+            "FBC, coagulation studies, INR (if on warfarin), creatinine",
+            "Blood group and hold + antibody screen",
+            "Consider oral charcoal if oral anticoagulant ingested <2 hours prior"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "Head injury and oral anticoagulants",
+          "url": "https://trauma.reach.vic.gov.au/specialist/anticoagulation-in-trauma/head-injury-and-oral-anticoagulants/"
+        },
+        {
+          "label": "Management agents",
+          "url": "https://trauma.reach.vic.gov.au/specialist/anticoagulation-in-trauma/management-agents/"
+        },
+        {
+          "label": "Early management",
+          "url": "https://trauma.reach.vic.gov.au/specialist/anticoagulation-in-trauma/early-management/"
+        }
+      ],
+      "verified_on": "2026-06-30",
+      "footer_note": "Pathway is decision support, not a protocol. Always verify current doses at the REACH live source and discuss with ARV / haematology / neurosurgery before administration."
+    }
+  }
+}

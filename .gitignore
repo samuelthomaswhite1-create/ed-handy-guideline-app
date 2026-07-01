@@ -1,0 +1,30 @@
+# Session tooling — Claude Code / preview / launch config
+.claude/
+memory/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Node — if ever
+node_modules/
+
+# Raw upstream captures — useful locally for the parse pipeline, too bulky
+# to ship. The parsed outputs (JSON) *are* committed so the app can be
+# rebuilt without re-fetching.
+data/*.html
+data/*.js
+
+# Ad hoc test artefacts
+data/test_*

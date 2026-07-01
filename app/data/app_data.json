@@ -1,0 +1,3133 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-06-29T08:46:57Z",
+  "source": {
+    "rch_index_url": "https://www.rch.org.au/clinicalguide/about_rch_cpgs/welcome_to_the_clinical_practice_guidelines/",
+    "note": "Titles and URLs only. Guideline body text is never cached - the app links out to live RCH pages."
+  },
+  "categories": [
+    {
+      "id": "resus-collapse",
+      "label": "Resus / Collapsed child",
+      "colour": "#c0392b",
+      "icon": "activity",
+      "count": 13
+    },
+    {
+      "id": "airway-breathing",
+      "label": "Airway / Breathing",
+      "colour": "#2e86ab",
+      "icon": "lungs",
+      "count": 21
+    },
+    {
+      "id": "cardiology",
+      "label": "Cardiology",
+      "colour": "#a93226",
+      "icon": "heart-pulse",
+      "count": 7
+    },
+    {
+      "id": "fever-infection",
+      "label": "Fever / Infection",
+      "colour": "#d35400",
+      "icon": "thermometer",
+      "count": 34
+    },
+    {
+      "id": "trauma-injury",
+      "label": "Trauma / Injury",
+      "colour": "#7d3c98",
+      "icon": "bandage",
+      "count": 31
+    },
+    {
+      "id": "neuro",
+      "label": "Neuro",
+      "colour": "#5d6d7e",
+      "icon": "brain",
+      "count": 19
+    },
+    {
+      "id": "gi",
+      "label": "GI",
+      "colour": "#b9770e",
+      "icon": "stomach",
+      "count": 14
+    },
+    {
+      "id": "renal-urology-gu",
+      "label": "Renal / Urology / GU",
+      "colour": "#1f6f5c",
+      "icon": "droplet",
+      "count": 17
+    },
+    {
+      "id": "endocrine-metabolic",
+      "label": "Endocrine / Metabolic",
+      "colour": "#b03a2e",
+      "icon": "flask",
+      "count": 14
+    },
+    {
+      "id": "haem-onc",
+      "label": "Haematology / Oncology",
+      "colour": "#6c3483",
+      "icon": "vial",
+      "count": 17
+    },
+    {
+      "id": "skin-allergy",
+      "label": "Skin / Allergy",
+      "colour": "#cb6a3b",
+      "icon": "skin",
+      "count": 14
+    },
+    {
+      "id": "poisoning-tox",
+      "label": "Poisoning / Toxicology",
+      "colour": "#7e5109",
+      "icon": "biohazard",
+      "count": 44
+    },
+    {
+      "id": "ent-ophthalmology",
+      "label": "ENT / Ophthalmology",
+      "colour": "#1a5276",
+      "icon": "ear-eye",
+      "count": 10
+    },
+    {
+      "id": "ortho-nontrauma",
+      "label": "Orthopaedics (non-trauma)",
+      "colour": "#797d7f",
+      "icon": "bone",
+      "count": 5
+    },
+    {
+      "id": "gynae-sexual",
+      "label": "Gynaecology / Sexual health",
+      "colour": "#9b1b5b",
+      "icon": "venus",
+      "count": 7
+    },
+    {
+      "id": "neonatal",
+      "label": "Neonatal",
+      "colour": "#7d6608",
+      "icon": "baby",
+      "count": 9
+    },
+    {
+      "id": "mental-behavioural",
+      "label": "Mental health / Behavioural",
+      "colour": "#117a65",
+      "icon": "head-mind",
+      "count": 8
+    },
+    {
+      "id": "procedures-resources",
+      "label": "Procedures / Resources",
+      "colour": "#34495e",
+      "icon": "tools",
+      "count": 40
+    },
+    {
+      "id": "resources-equity",
+      "label": "Resources / Equity",
+      "colour": "#5b2c6f",
+      "icon": "people",
+      "count": 7
+    }
+  ],
+  "guidelines": [
+    {
+      "title": "Abdominal pain - acute",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Abdominal_pain_-_acute/",
+      "categories": [
+        "gi"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Abdominal pain - chronic",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Abdominal_pain_-_chronic/",
+      "categories": [
+        "gi"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Aboriginal and Torres Strait Islander health: services and support",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Aboriginal_and_Torres_Strait_Islander_health__services_and_support/",
+      "categories": [
+        "resources-equity"
+      ],
+      "synonyms": [],
+      "is_pic": false
+    },
+    {
+      "title": "Acceptable ranges for physiological variables",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Acceptable_ranges_for_physiological_variables/",
+      "categories": [
+        "procedures-resources"
+      ],
+      "synonyms": [
+        "Heart Rate - Normal",
+        "Normal Ranges for Physiological Variables",
+        "Observations - Normal Ranges",
+        "Respiratory Rate - Normal"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Acquired torticollis",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Acquired_torticollis/",
+      "categories": [
+        "neuro"
+      ],
+      "synonyms": [
+        "Torticollis"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Acute asthma",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Acute_asthma/",
+      "categories": [
+        "airway-breathing"
+      ],
+      "synonyms": [
+        "Asthma acute",
+        "Wheeze"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Acute behavioural disturbance: Acute management",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Acute_behavioural_disturbance__Acute_management/",
+      "categories": [
+        "mental-behavioural"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Acute behavioural disturbance: Code Response",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/acute_behavioural_disturbance_code_grey/",
+      "categories": [
+        "mental-behavioural"
+      ],
+      "synonyms": [
+        "Restraint (aggressive patient)"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Acute eye injury",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Acute_eye_injury/",
+      "categories": [
+        "trauma-injury"
+      ],
+      "synonyms": [
+        "Eye"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Acute knee injuries - emergency department",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/fractures/Acute_knee_injuries_-_emergency_department/",
+      "categories": [
+        "trauma-injury"
+      ],
+      "synonyms": [],
+      "is_pic": false
+    },
+    {
+      "title": "Acute meningococcal disease",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Acute_meningococcal_disease/",
+      "categories": [
+        "fever-infection"
+      ],
+      "synonyms": [
+        "Meningococcal infection"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Acute otitis media",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Acute_otitis_media/",
+      "categories": [
+        "fever-infection",
+        "ent-ophthalmology"
+      ],
+      "synonyms": [
+        "Otitis Media"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Acute pain management",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Acute_pain_management/",
+      "categories": [
+        "procedures-resources"
+      ],
+      "synonyms": [
+        "Analgesia and sedation",
+        "Pain management",
+        "Sedation"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Acute red eye",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Acute_red_eye/",
+      "categories": [
+        "ent-ophthalmology"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Acute scrotal pain or swelling",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Acute_scrotal_pain_or_swelling/",
+      "categories": [
+        "renal-urology-gu"
+      ],
+      "synonyms": [
+        "Epididymoorchitis",
+        "Hydrocoele",
+        "Inguinal hernia",
+        "Scrotum",
+        "Testis"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Acute upper airway obstruction",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Acute_upper_airway_obstruction/",
+      "categories": [
+        "airway-breathing"
+      ],
+      "synonyms": [
+        "Airway Obstruction",
+        "Epiglottitis",
+        "Upper Airway Obstruction"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Admission criteria for general medicine SSU and IPU",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Admission_criteria_for_general_medicine_SSU_and_IPU/",
+      "categories": [
+        "resources-equity"
+      ],
+      "synonyms": [
+        "Short Stay Unit Admission Guidelines"
+      ],
+      "is_pic": false
+    },
+    {
+      "title": "Adolescent gynaecology - heavy menstrual bleeding",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Adolescent_Gynaecology_Menorrhagia/",
+      "categories": [
+        "gynae-sexual"
+      ],
+      "synonyms": [
+        "Gynaecology",
+        "Heavy Menstrual Bleeding"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Adolescent gynaecology - lower abdominal pain",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Adolescent_Gynaecology_Lower_Abdominal_Pain/",
+      "categories": [
+        "gi",
+        "gynae-sexual"
+      ],
+      "synonyms": [
+        "Gynaecology",
+        "Pelvic Pain"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Adrenal crisis and acute adrenal insufficiency",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Adrenal_crisis_and_acute_adrenal_insufficiency/",
+      "categories": [
+        "endocrine-metabolic"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Adrenal insufficiency steroid replacement before and after surgery or procedure requiring GA",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Adrenal_insufficiency_steroid_replacement_before_and_after_surgery_or_procedure_requiring_GA/",
+      "categories": [
+        "endocrine-metabolic"
+      ],
+      "synonyms": [],
+      "is_pic": false
+    },
+    {
+      "title": "Alkalis poisoning",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Alkalis_poisoning/",
+      "categories": [
+        "poisoning-tox"
+      ],
+      "synonyms": [
+        "Alkaline Ingestion",
+        "Alkaline Poisoning",
+        "Poisoning - Alkaline"
+      ],
+      "is_pic": false
+    },
+    {
+      "title": "Altered conscious state",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Altered_conscious_state/",
+      "categories": [
+        "resus-collapse",
+        "neuro"
+      ],
+      "synonyms": [
+        "Coma",
+        "Depressed Consious State"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Anaemia",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Anaemia/",
+      "categories": [
+        "haem-onc"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Anaphylaxis",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Anaphylaxis/",
+      "categories": [
+        "airway-breathing",
+        "resus-collapse",
+        "skin-allergy"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Animal and human bites",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Animal_and_human_bites/",
+      "categories": [
+        "trauma-injury"
+      ],
+      "synonyms": [
+        "Bites"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Antenatal urinary tract dilation",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Antenatal_urinary_tract_dilation/",
+      "categories": [
+        "renal-urology-gu",
+        "neonatal"
+      ],
+      "synonyms": [
+        "Hydronephrosis"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Antibiotic prescribing in children with reported penicillin or cephalosporin allergy",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Antibiotic_prescribing_in_children_with_reported_penicillin_or_cephalosporin_allergy/",
+      "categories": [
+        "fever-infection",
+        "skin-allergy"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Anticholinergic syndrome",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Anticholinergic_syndrome/",
+      "categories": [
+        "poisoning-tox"
+      ],
+      "synonyms": [
+        "Poisoning – Anticholinergic Syndrome"
+      ],
+      "is_pic": false
+    },
+    {
+      "title": "Anticoagulation therapy",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Anticoagulation_therapy/",
+      "categories": [
+        "haem-onc"
+      ],
+      "synonyms": [
+        "Heparin infusion",
+        "Standard Heparin",
+        "Unfractionated heparin"
+      ],
+      "is_pic": false
+    },
+    {
+      "title": "Anticonvulsant poisoning",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Anticonvulsant_poisoning/",
+      "categories": [
+        "poisoning-tox"
+      ],
+      "synonyms": [
+        "Poisoning - Anticonvulsant"
+      ],
+      "is_pic": false
+    },
+    {
+      "title": "Antifungal prophylaxis for children with cancer or undergoing haematopoietic stem cell transplant",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Antifungal_prophylaxis_for_children_with_cancer_or_undergoing_haematopoietic_stem_cell_transplant/",
+      "categories": [
+        "fever-infection",
+        "haem-onc"
+      ],
+      "synonyms": [],
+      "is_pic": false
+    },
+    {
+      "title": "Antihistamine poisoning",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Antihistamine_poisoning/",
+      "categories": [
+        "poisoning-tox"
+      ],
+      "synonyms": [
+        "Poisoning - Antihistamine"
+      ],
+      "is_pic": false
+    },
+    {
+      "title": "Antimicrobial guidelines",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Antimicrobial_guidelines/",
+      "categories": [
+        "fever-infection"
+      ],
+      "synonyms": [
+        "Antibiotics"
+      ],
+      "is_pic": false
+    },
+    {
+      "title": "Anxiety: identification and management",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Anxiety__identification_and_management/",
+      "categories": [
+        "mental-behavioural"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Assessment of severity of respiratory conditions",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Assessment_of_severity_of_respiratory_conditions/",
+      "categories": [
+        "airway-breathing"
+      ],
+      "synonyms": [
+        "work of breathing"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Asthma in adolescents (12 years and over)",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Asthma_in_adolescents_(12_years_and_over)/",
+      "categories": [
+        "airway-breathing"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Asthma in primary school-aged children (6-11 years)",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Asthma_in_primary_school-aged_children_(6-11_years)/",
+      "categories": [
+        "airway-breathing"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Ataxia",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Ataxia/",
+      "categories": [
+        "neuro"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Autism and developmental disability: management of distress/agitation",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Autism_and_developmental_disability__management_of_distress/agitation/",
+      "categories": [
+        "mental-behavioural"
+      ],
+      "synonyms": [
+        "Developmental disability",
+        "Management of Distress and Agitation"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Basic paediatric ECG interpretation",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Basic_paediatric_ECG_interpretation/",
+      "categories": [
+        "cardiology"
+      ],
+      "synonyms": [
+        "ECG interpretation"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Benzodiazepine poisoning",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Benzodiazepine_poisoning/",
+      "categories": [
+        "poisoning-tox"
+      ],
+      "synonyms": [
+        "Poisoning - Benzodiazepine"
+      ],
+      "is_pic": false
+    },
+    {
+      "title": "Bier block",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Bier_block/",
+      "categories": [
+        "procedures-resources"
+      ],
+      "synonyms": [],
+      "is_pic": false
+    },
+    {
+      "title": "Blood product prescription",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Blood_product_prescription/",
+      "categories": [
+        "procedures-resources",
+        "haem-onc"
+      ],
+      "synonyms": [
+        "Transfusion"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Bone and joint infection",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Bone_and_joint_infection/",
+      "categories": [
+        "fever-infection"
+      ],
+      "synonyms": [
+        "Joint infections",
+        "Osteomyelitis and septic arthritis"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Bradycardia during sleep",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Bradycardia_during_sleep/",
+      "categories": [
+        "cardiology"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Brief resolved unexplained event (BRUE)",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Brief_resolved_unexplained_event_(BRUE)/",
+      "categories": [
+        "airway-breathing"
+      ],
+      "synonyms": [
+        "ALTE",
+        "Apparent life threatening event ALTE"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Bronchiolitis",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Bronchiolitis/",
+      "categories": [
+        "airway-breathing"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Burns - acute management",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Burns/",
+      "categories": [
+        "trauma-injury"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Burns - post acute care and dressings",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Burns_-_post_acute_care_and_dressings/",
+      "categories": [
+        "trauma-injury"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Camphor poisoning",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Camphor_poisoning/",
+      "categories": [
+        "poisoning-tox"
+      ],
+      "synonyms": [
+        "Poisoning - Camphor"
+      ],
+      "is_pic": false
+    },
+    {
+      "title": "Can’t intubate can’t oxygenate (CICO) airway emergency management",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Can_t_intubate_can_t_oxygenate_(CICO)_airway_emergency_management/",
+      "categories": [
+        "airway-breathing"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Cannabis withdrawal syndrome",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Cannabis_withdrawal_syndrome/",
+      "categories": [
+        "poisoning-tox"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Capsicum spray",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Capsicum_spray/",
+      "categories": [
+        "poisoning-tox"
+      ],
+      "synonyms": [],
+      "is_pic": false
+    },
+    {
+      "title": "Carbamazepine poisoning",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Carbamazepine_poisoning/",
+      "categories": [
+        "poisoning-tox"
+      ],
+      "synonyms": [
+        "Poisoning – Carbamazepine"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Cellulitis and other bacterial skin infections",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Cellulitis_and_other_bacterial_skin_infections/",
+      "categories": [
+        "fever-infection",
+        "skin-allergy"
+      ],
+      "synonyms": [
+        "Skin Infections"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Cerebral palsy",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Cerebral_palsy/",
+      "categories": [
+        "neuro"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Cerebral palsy - chest infection",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Cerebral_Palsy_chest_infection/",
+      "categories": [
+        "fever-infection",
+        "neuro"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Cerebral palsy - increased seizures",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Cerebral_Palsy_Increased_Seizures/",
+      "categories": [
+        "neuro"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Cerebral palsy - pain and irritability",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Cerebral_Palsy_Pain_and_Irritability/",
+      "categories": [
+        "neuro"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Cervical lymphadenopathy",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Cervical_lymphadenopathy/",
+      "categories": [
+        "ent-ophthalmology"
+      ],
+      "synonyms": [
+        "Lymphadenitis"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Cervical spine assessment",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Cervical_spine_assessment/",
+      "categories": [
+        "ortho-nontrauma"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Chest pain",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Chest_pain/",
+      "categories": [
+        "cardiology"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Chickenpox (varicella)",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Chickenpox_varicella/",
+      "categories": [
+        "fever-infection"
+      ],
+      "synonyms": [
+        "Varicella"
+      ],
+      "is_pic": false
+    },
+    {
+      "title": "Child abuse",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Child_abuse/",
+      "categories": [
+        "trauma-injury"
+      ],
+      "synonyms": [
+        "Non Accidental Injury"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Childrens cancer centre - blood culture",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Childrens_Cancer_Centre_Blood_Culture_Guidelines/",
+      "categories": [
+        "haem-onc"
+      ],
+      "synonyms": [
+        "BC algorithm",
+        "Blood Culture Guidelines"
+      ],
+      "is_pic": false
+    },
+    {
+      "title": "Chloral hydrate poisoning",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Chloral_hydrate_poisoning/",
+      "categories": [
+        "poisoning-tox"
+      ],
+      "synonyms": [
+        "Poisoning – Chloral Hydrate Poisoning"
+      ],
+      "is_pic": false
+    },
+    {
+      "title": "Common causes of ataxia",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Common_causes_of_ataxia/",
+      "categories": [
+        "neuro"
+      ],
+      "synonyms": [],
+      "is_pic": false
+    },
+    {
+      "title": "Communicating procedures to children",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Communicating_procedures_to_children/",
+      "categories": [
+        "procedures-resources"
+      ],
+      "synonyms": [
+        "Procedures"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Community acquired needle stick injury",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Community_acquired_needle_stick_injury/",
+      "categories": [
+        "trauma-injury"
+      ],
+      "synonyms": [
+        "Needlestick injury (community acquired)"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Community acquired pneumonia",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Community_acquired_pneumonia/",
+      "categories": [
+        "airway-breathing",
+        "fever-infection"
+      ],
+      "synonyms": [
+        "Pneumonia"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Congenital Torticollis",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Congenital_Torticollis/",
+      "categories": [
+        "neuro"
+      ],
+      "synonyms": [
+        "Torticollis"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Constipation",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Constipation/",
+      "categories": [
+        "gi"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Contact prophylaxis for invasive meningococcal or Hib disease",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Contact_prophylaxis_for_invasive_meningococcal_or_Hib_disease/",
+      "categories": [
+        "fever-infection"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Contraception",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Contraception/",
+      "categories": [
+        "gynae-sexual"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Corrosives - Caustic Poisoning",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Corrosives_-_Caustic_Poisoning/",
+      "categories": [
+        "poisoning-tox"
+      ],
+      "synonyms": [
+        "Poisoning – Corrosives / Caustic"
+      ],
+      "is_pic": false
+    },
+    {
+      "title": "Cough",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Cough/",
+      "categories": [
+        "airway-breathing"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "COVID-19",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/COVID-19/",
+      "categories": [
+        "fever-infection"
+      ],
+      "synonyms": [
+        "Coronavirus"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "COVID-19 swabbing",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/COVID-19_swabbing/",
+      "categories": [
+        "fever-infection"
+      ],
+      "synonyms": [
+        "Swabbing for COVID-19"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "CPG Committee Calendar",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/CPG_Committee_Calendar/",
+      "categories": [
+        "resources-equity"
+      ],
+      "synonyms": [],
+      "is_pic": false
+    },
+    {
+      "title": "Croup  (Laryngotracheobronchitis)",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Croup_Laryngotracheobronchitis/",
+      "categories": [
+        "airway-breathing"
+      ],
+      "synonyms": [
+        "Laryngotracheobronchitis"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "CSF interpretation",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/csf/",
+      "categories": [
+        "neuro",
+        "procedures-resources"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Cyanotic episodes in congenital heart disease",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Cyanotic_episodes_in_congenital_heart_disease/",
+      "categories": [
+        "cardiology"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Death of a child",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Death_of_a_child/",
+      "categories": [
+        "procedures-resources"
+      ],
+      "synonyms": [
+        "Coroner",
+        "Death Certificate"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Death of a child: New South Wales resources",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Death_of_a_child__New_South_Wales_resources/",
+      "categories": [
+        "procedures-resources"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Death of a child: Queensland resources",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Death_of_a_child__Queensland_resources/",
+      "categories": [
+        "procedures-resources"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Death of a child: Resources",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Death_of_a_child__Resources/",
+      "categories": [
+        "procedures-resources"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Death of a child: Sudden unexpected death in infancy SUDI",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Death_of_a_child__Sudden_unexpected_death_in_infancy_SUDI/",
+      "categories": [
+        "procedures-resources"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Death of a child: Victorian resources",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Death_of_a_child__Victorian_resources/",
+      "categories": [
+        "procedures-resources"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Dehydration",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Dehydration/",
+      "categories": [
+        "procedures-resources"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Dental conditions - non traumatic",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Dental_conditions_non_traumatic/",
+      "categories": [
+        "ent-ophthalmology"
+      ],
+      "synonyms": [
+        "Bleeding dental socket",
+        "Dental abscess"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Dental trauma",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Dental_trauma/",
+      "categories": [
+        "trauma-injury"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Diabetes insipidus",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Diabetes_insipidus/",
+      "categories": [
+        "endocrine-metabolic"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Diabetes mellitus and endoscopy",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Diabetes_mellitus_and_endoscopy/",
+      "categories": [
+        "endocrine-metabolic"
+      ],
+      "synonyms": [],
+      "is_pic": false
+    },
+    {
+      "title": "Diabetes mellitus and surgery",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Diabetes_mellitus_and_surgery/",
+      "categories": [
+        "endocrine-metabolic"
+      ],
+      "synonyms": [],
+      "is_pic": false
+    },
+    {
+      "title": "Diabetes mellitus: management of unwell children with established diabetes at home",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Diabetes_mellitus__management_of_unwell_children_with_established_diabetes_at_home/",
+      "categories": [
+        "endocrine-metabolic"
+      ],
+      "synonyms": [],
+      "is_pic": false
+    },
+    {
+      "title": "Diabetes mellitus: management of unwell children with established diabetes in hospital",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Diabetes_mellitus__management_of_unwell_children_with_established_diabetes_in_hospital/",
+      "categories": [
+        "endocrine-metabolic"
+      ],
+      "synonyms": [],
+      "is_pic": false
+    },
+    {
+      "title": "Diabetes Mellitus: new presentation",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Diabetes_Mellitus__new_presentation/",
+      "categories": [
+        "endocrine-metabolic"
+      ],
+      "synonyms": [],
+      "is_pic": false
+    },
+    {
+      "title": "Diabetic ketoacidosis",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Diabetic_ketoacidosis/",
+      "categories": [
+        "resus-collapse",
+        "endocrine-metabolic"
+      ],
+      "synonyms": [
+        "DKA"
+      ],
+      "is_pic": false
+    },
+    {
+      "title": "Distraction techniques for COVID-19 swabbing",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Distraction_techniques_for_COVID-19_swabbing/",
+      "categories": [
+        "fever-infection"
+      ],
+      "synonyms": [],
+      "is_pic": false
+    },
+    {
+      "title": "Drowning",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Drowning/",
+      "categories": [
+        "trauma-injury"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Dysmenorrhoea",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Dysmenorrhoea/",
+      "categories": [
+        "gynae-sexual"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Eczema",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/eczema/",
+      "categories": [
+        "skin-allergy"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Elbow Dislocations",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/fractures/Elbow_Dislocations/",
+      "categories": [
+        "trauma-injury"
+      ],
+      "synonyms": [],
+      "is_pic": false
+    },
+    {
+      "title": "Elbow Dislocations - Emergency Department",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/fractures/Elbow_Dislocations_-_Emergency_Department/",
+      "categories": [
+        "trauma-injury"
+      ],
+      "synonyms": [],
+      "is_pic": false
+    },
+    {
+      "title": "Electrolyte abnormalities",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Electrolyte_abnormalities/",
+      "categories": [
+        "renal-urology-gu"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Emergency airway management",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Emergency_airway_management/",
+      "categories": [
+        "airway-breathing"
+      ],
+      "synonyms": [
+        "Airway management"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Emergency airway management in COVID-19 context",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Emergency_airway_management_in_COVID-19_context/",
+      "categories": [
+        "airway-breathing",
+        "fever-infection"
+      ],
+      "synonyms": [
+        "COVID-19 emergency airway management"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Emergency medication and resuscitation resources",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Emergency_medication_and_resuscitation_resources/",
+      "categories": [
+        "resus-collapse"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Empiric treatment of infectious diseases in child with suspected Ebola",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Empiric_treatment_of_infectious_diseases_in_child_with_suspected_Ebola/",
+      "categories": [
+        "fever-infection"
+      ],
+      "synonyms": [
+        "Ebola"
+      ],
+      "is_pic": false
+    },
+    {
+      "title": "Engaging with and assessing the adolescent patient",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Engaging_with_and_assessing_the_adolescent_patient/",
+      "categories": [
+        "resources-equity"
+      ],
+      "synonyms": [
+        "Adolescent patient - engagement and assessment"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Enuresis - Bed wetting and Monosymptomatic Enuresis",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Enuresis_-_Bed_wetting_and_Monosymptomatic_Enuresis/",
+      "categories": [
+        "renal-urology-gu"
+      ],
+      "synonyms": [
+        "Bedwetting"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Epistaxis",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Epistaxis/",
+      "categories": [
+        "ent-ophthalmology"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Essential Oil Poisoning",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Essential_Oil_Poisoning/",
+      "categories": [
+        "poisoning-tox"
+      ],
+      "synonyms": [
+        "Poisoning - Essential Oil"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Ethanol poisoning",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Ethanol_Posioning/",
+      "categories": [
+        "poisoning-tox"
+      ],
+      "synonyms": [
+        "Poisoning – Ethanol"
+      ],
+      "is_pic": false
+    },
+    {
+      "title": "Eucalyptus Oil Poisoning",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Eucalyptus_Oil_Poisoning/",
+      "categories": [
+        "poisoning-tox"
+      ],
+      "synonyms": [
+        "Poisoning - Eucalyptus Oil"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Eye Examination",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Eye_Examination/",
+      "categories": [
+        "ent-ophthalmology"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Facial weakness and Bell palsy",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Facial_weakness_and_Bells_palsy/",
+      "categories": [
+        "neuro"
+      ],
+      "synonyms": [
+        "Bell's palsy"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Family violence",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Family_violence/",
+      "categories": [
+        "resources-equity"
+      ],
+      "synonyms": [
+        "Violence"
+      ],
+      "is_pic": false
+    },
+    {
+      "title": "Fascia iliaca block of the femoral nerve",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Fascia_iliaca_block_of_the_femoral_nerve/",
+      "categories": [
+        "procedures-resources"
+      ],
+      "synonyms": [],
+      "is_pic": false
+    },
+    {
+      "title": "Fasting for general anaesthesia",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Fasting_for_general_anaesthesia/",
+      "categories": [
+        "procedures-resources"
+      ],
+      "synonyms": [],
+      "is_pic": false
+    },
+    {
+      "title": "Febrile child",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Febrile_child/",
+      "categories": [
+        "fever-infection"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Febrile seizure",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Febrile_seizure/",
+      "categories": [
+        "fever-infection",
+        "neuro"
+      ],
+      "synonyms": [
+        "Convulsions",
+        "Seizures"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Fever and suspected or confirmed neutropenia",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Fever_and_suspected_or_confirmed_neutropenia/",
+      "categories": [
+        "fever-infection"
+      ],
+      "synonyms": [
+        "Febrile neutropenia",
+        "Neutropenia"
+      ],
+      "is_pic": false
+    },
+    {
+      "title": "Fever in the recently returned traveller",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Fever_in_the_recently_returned_traveller/",
+      "categories": [
+        "fever-infection"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Fingertip and nail injuries – Emergency Department",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/fractures/Fingertip_and_nail_injuries_–_Emergency_Department/",
+      "categories": [
+        "trauma-injury"
+      ],
+      "synonyms": [],
+      "is_pic": false
+    },
+    {
+      "title": "Food allergy - IgE mediated food allergy",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Food_allergy_-_IgE_mediated_food_allergy/",
+      "categories": [
+        "skin-allergy"
+      ],
+      "synonyms": [],
+      "is_pic": false
+    },
+    {
+      "title": "Foreign bodies inhaled",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Foreign_bodies_inhaled/",
+      "categories": [
+        "airway-breathing"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Foreign body ingestion",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Foreign_body_ingestion/",
+      "categories": [
+        "trauma-injury",
+        "gi"
+      ],
+      "synonyms": [
+        "Button battery ingestion"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Fracture casting videos",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Fracture_casting_videos/",
+      "categories": [
+        "trauma-injury",
+        "procedures-resources"
+      ],
+      "synonyms": [],
+      "is_pic": false
+    },
+    {
+      "title": "Fractures",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Fractures/",
+      "categories": [
+        "trauma-injury"
+      ],
+      "synonyms": [],
+      "is_pic": false
+    },
+    {
+      "title": "Gastroenteritis",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Gastroenteritis/",
+      "categories": [
+        "gi"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Gastrooesophageal reflux disease in infants",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Gastrooesophageal_reflux_disease_in_infants/",
+      "categories": [
+        "gi"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Gastrostomy - common problems",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Gastrostomy_Common_problems/",
+      "categories": [
+        "gi"
+      ],
+      "synonyms": [],
+      "is_pic": false
+    },
+    {
+      "title": "Gastrostomy acute replacement of displaced tubes",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Gastrostomy_acute_replacement_of_displaced_tubes/",
+      "categories": [
+        "gi"
+      ],
+      "synonyms": [],
+      "is_pic": false
+    },
+    {
+      "title": "Haematuria",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Haematuria/",
+      "categories": [
+        "renal-urology-gu"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Haemophilia",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Haemophilia/",
+      "categories": [
+        "haem-onc"
+      ],
+      "synonyms": [
+        "Bleeding Disorders"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Head injury",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Head_injury/",
+      "categories": [
+        "trauma-injury",
+        "neuro"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Headache",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Headache/",
+      "categories": [
+        "neuro"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Henoch-Schönlein purpura",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/HenochSchonlein_Purpura/",
+      "categories": [
+        "haem-onc"
+      ],
+      "synonyms": [
+        "HSP"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Hereditary angioedema (C1-esterase inhibitor deficiency)",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Hereditary_angioedema_(C1-esterase_inhibitor_deficiency)/",
+      "categories": [
+        "skin-allergy"
+      ],
+      "synonyms": [
+        "Angioedema",
+        "Hereditary Angioedema"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "High risk - low dose paediatric ingestions",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/High_risk_-_low_dose_paediatric_ingestions/",
+      "categories": [
+        "poisoning-tox"
+      ],
+      "synonyms": [
+        "Poisoning – High risk – low dose ingestions"
+      ],
+      "is_pic": false
+    },
+    {
+      "title": "Hirschsprung associated enterocolitis HAEC",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Hirschsprung_associated_enterocolitis_HAEC/",
+      "categories": [
+        "gi"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "HSV Gingivostomatitis",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/HSV_Gingivostomatitis/",
+      "categories": [
+        "ent-ophthalmology"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Hydrocarbon poisoning",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Hydrocarbon_poisoning/",
+      "categories": [
+        "poisoning-tox"
+      ],
+      "synonyms": [
+        "Petrol Poisoning",
+        "Poisoning - Hydrocarbon",
+        "Poisoning - Petrol"
+      ],
+      "is_pic": false
+    },
+    {
+      "title": "Hydrofluoric acid exposure",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Hydrofluoric_acid_exposure/",
+      "categories": [
+        "poisoning-tox"
+      ],
+      "synonyms": [
+        "Poisoning – Hydrofluoric acid"
+      ],
+      "is_pic": false
+    },
+    {
+      "title": "Hyperkalaemia",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Hyperkalaemia/",
+      "categories": [
+        "renal-urology-gu"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Hypermagnesaemia",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Hypermagnesaemia/",
+      "categories": [
+        "renal-urology-gu"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Hypernatraemia",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Hypernatraemia/",
+      "categories": [
+        "renal-urology-gu"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Hyperosmolar hyperglycaemic state",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Hyperosmolar_hyperglycaemic_state/",
+      "categories": [
+        "endocrine-metabolic"
+      ],
+      "synonyms": [],
+      "is_pic": false
+    },
+    {
+      "title": "Hyperphosphataemia",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Hyperphosphataemia/",
+      "categories": [
+        "renal-urology-gu"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Hypertension in children and adolescents",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Hypertension_in_children_and_adolescents/",
+      "categories": [
+        "cardiology"
+      ],
+      "synonyms": [
+        "Blood Pressure Charts"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Hypoglycaemia",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Hypoglycaemia/",
+      "categories": [
+        "resus-collapse",
+        "endocrine-metabolic"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Hypokalaemia",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Hypokalaemia/",
+      "categories": [
+        "renal-urology-gu"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Hypomagnesaemia",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Hypomagnesaemia/",
+      "categories": [
+        "renal-urology-gu"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Hyponatraemia",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Hyponatraemia/",
+      "categories": [
+        "renal-urology-gu"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Hypophosphataemia",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Hypophosphataemia/",
+      "categories": [
+        "renal-urology-gu"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Immigrant health - acute presentations",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Immigrant_Health_acute_presentations/",
+      "categories": [
+        "resources-equity"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Immigrant health resources",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Immigrant_health_resources/",
+      "categories": [
+        "resources-equity"
+      ],
+      "synonyms": [
+        "Asylum seeker issues",
+        "Refugee issues"
+      ],
+      "is_pic": false
+    },
+    {
+      "title": "Immune thrombocytopenic purpura",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Immune_thrombocytopenic_purpura/",
+      "categories": [
+        "haem-onc"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Infantile spasms",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Infantile_spasms/",
+      "categories": [
+        "neuro",
+        "neonatal"
+      ],
+      "synonyms": [
+        "Seizures"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Influenza",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Influenza/",
+      "categories": [
+        "fever-infection"
+      ],
+      "synonyms": [
+        "Swine Flu"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Inhalants / volatile substance use - chroming",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Inhalants_/_volatile_substance_use_-_chroming/",
+      "categories": [
+        "mental-behavioural"
+      ],
+      "synonyms": [
+        "Chroming",
+        "Poisoning – Inhalants/volatile substance use",
+        "Volatile substance use"
+      ],
+      "is_pic": false
+    },
+    {
+      "title": "Intranasal fentanyl",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Intranasal_fentanyl/",
+      "categories": [
+        "procedures-resources"
+      ],
+      "synonyms": [
+        "Pain management - Intranasal fentanyl"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Intraosseous access",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Intraosseous_access/",
+      "categories": [
+        "resus-collapse",
+        "procedures-resources"
+      ],
+      "synonyms": [
+        "Intraosseous needle insertion"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Intravenous access - Peripheral",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Intravenous_access_Peripheral/",
+      "categories": [
+        "procedures-resources"
+      ],
+      "synonyms": [
+        "IV insertion",
+        "Peripheral Intravenous Cannulation"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Intravenous fluids",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Intravenous_fluids/",
+      "categories": [
+        "procedures-resources"
+      ],
+      "synonyms": [
+        "Fluids"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Intussusception",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Intussusception/",
+      "categories": [
+        "gi"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Invasive group A streptococcal infections: management of household contacts",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Invasive_group_A_streptococcal_infections__management_of_household_contacts/",
+      "categories": [
+        "fever-infection"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Iron deficiency",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Iron_deficiency/",
+      "categories": [
+        "poisoning-tox"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Iron poisoning",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Iron_poisoning/",
+      "categories": [
+        "poisoning-tox"
+      ],
+      "synonyms": [
+        "Poisoning - Iron"
+      ],
+      "is_pic": false
+    },
+    {
+      "title": "IV Immunoglobulin",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/IV_Immunoglobulin/",
+      "categories": [
+        "haem-onc"
+      ],
+      "synonyms": [],
+      "is_pic": false
+    },
+    {
+      "title": "Jaundice in early infancy",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Jaundice_in_early_infancy/",
+      "categories": [
+        "gi",
+        "neonatal"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Kawasaki disease",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Kawasaki_disease/",
+      "categories": [
+        "fever-infection",
+        "cardiology"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Ketamine use for procedural sedation",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Ketamine_use_for_procedural_sedation/",
+      "categories": [
+        "procedures-resources"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Lacerations",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Lacerations/",
+      "categories": [
+        "trauma-injury"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Local anaesthetic poisoning",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Local_anaesthetic_poisoning/",
+      "categories": [
+        "poisoning-tox",
+        "procedures-resources"
+      ],
+      "synonyms": [
+        "Poisoning – Local anaesthetic"
+      ],
+      "is_pic": false
+    },
+    {
+      "title": "Lumbar puncture",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Lumbar_puncture/",
+      "categories": [
+        "procedures-resources"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Malaria",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Malaria/",
+      "categories": [
+        "fever-infection"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Management of Eating Disorders in the Emergency Department",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Management_of_Eating_Disorders_in_the_Emergency_Department/",
+      "categories": [
+        "mental-behavioural"
+      ],
+      "synonyms": [
+        "Eating disorders"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Management of tetanus-prone wounds",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Management_of_tetanusprone_wounds/",
+      "categories": [
+        "trauma-injury"
+      ],
+      "synonyms": [
+        "Tetanus-prone wounds"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Meningitis and encephalitis",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Meningitis_encephalitis/",
+      "categories": [
+        "fever-infection",
+        "neuro"
+      ],
+      "synonyms": [
+        "Encephalitis"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Menstrual management in adolescents with disabilities",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Menstrual_management_in_adolescents_with_disabilities/",
+      "categories": [
+        "gynae-sexual"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Mental state examination",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Mental_state_examination/",
+      "categories": [
+        "mental-behavioural"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "MET criteria - call 2222 for help",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/MET_Criteria_Call_2222_for_help/",
+      "categories": [
+        "resus-collapse"
+      ],
+      "synonyms": [
+        "Medical Emergency Team"
+      ],
+      "is_pic": false
+    },
+    {
+      "title": "Metabolic disorders",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Metabolic_disorders/",
+      "categories": [
+        "endocrine-metabolic"
+      ],
+      "synonyms": [],
+      "is_pic": false
+    },
+    {
+      "title": "Micronutrient deficiency",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Micronutrient_deficiency/",
+      "categories": [
+        "endocrine-metabolic"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Minimising distress in healthcare setting",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Minimising_distress_in_healthcare_setting/",
+      "categories": [
+        "procedures-resources"
+      ],
+      "synonyms": [],
+      "is_pic": false
+    },
+    {
+      "title": "Molluscum contagiosum",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Molluscum_contagiosum/",
+      "categories": [
+        "skin-allergy"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Nappy rash",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Nappy_rash/",
+      "categories": [
+        "skin-allergy"
+      ],
+      "synonyms": [],
+      "is_pic": false
+    },
+    {
+      "title": "Nasal fracture",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Nasal_fracture/",
+      "categories": [
+        "trauma-injury"
+      ],
+      "synonyms": [],
+      "is_pic": false
+    },
+    {
+      "title": "Nasogastric fluids",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Nasogastric_fluids/",
+      "categories": [
+        "procedures-resources"
+      ],
+      "synonyms": [
+        "Fluids",
+        "Rapid rehydration"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Neonatal antimicrobial guidelines",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Neonatal_antimicrobial_guidelines/",
+      "categories": [
+        "fever-infection",
+        "neonatal"
+      ],
+      "synonyms": [],
+      "is_pic": false
+    },
+    {
+      "title": "Neonatal intravenous fluids",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Neonatal_intravenous_fluids/",
+      "categories": [
+        "procedures-resources",
+        "neonatal"
+      ],
+      "synonyms": [
+        "Intravenous fluids – neonatal"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Nephrotic syndrome",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Nephrotic_syndrome/",
+      "categories": [
+        "renal-urology-gu"
+      ],
+      "synonyms": [
+        "Idiopathic Nephrotic Syndrome"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Nicotine Poisoning",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Nicotine_Poisoning/",
+      "categories": [
+        "poisoning-tox"
+      ],
+      "synonyms": [
+        "Poisoning – Nicotine"
+      ],
+      "is_pic": false
+    },
+    {
+      "title": "Nitrous Oxide - oxygen mix",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Nitrous_Oxide_Oxygen_Mix/",
+      "categories": [
+        "airway-breathing",
+        "poisoning-tox"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Nitrous Oxide Misuse",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Nitrous_Oxide_Misuse/",
+      "categories": [
+        "poisoning-tox"
+      ],
+      "synonyms": [
+        "Nitrous Oxide (N2O) Misuse",
+        "Poisoning – Nitrous Oxide"
+      ],
+      "is_pic": false
+    },
+    {
+      "title": "Non-IgE mediated food allergy",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Non-IgE_mediated_food_allergy/",
+      "categories": [
+        "skin-allergy"
+      ],
+      "synonyms": [
+        "Cow's milk allergy",
+        "Food allergy - Non-IgE mediated food allergy"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Nonsteroidal Anti-inflammatory Drug NSAID poisoning",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Nonsteroidal_Anti-inflammatory_Drug_NSAID_poisoning/",
+      "categories": [
+        "poisoning-tox"
+      ],
+      "synonyms": [
+        "Poisoning - Nonsteroidal anti-inflammatory drug (NSAID)"
+      ],
+      "is_pic": false
+    },
+    {
+      "title": "NPA",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/NPA_Guideline_/",
+      "categories": [
+        "procedures-resources"
+      ],
+      "synonyms": [
+        "NPA in oncology patients",
+        "Oncology patients with known or suspected respiratory infections"
+      ],
+      "is_pic": false
+    },
+    {
+      "title": "Oncological emergencies: Hyperleukocytosis",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Oncological_emergencies__Hyperleukocytosis/",
+      "categories": [
+        "haem-onc"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Oncological emergencies: Mediastinal mass",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Oncological_emergencies__Mediastinal_mass/",
+      "categories": [
+        "haem-onc"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Oral Hypoglycaemic Poisoning",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Oral_Hypoglycaemic_Poisoning/",
+      "categories": [
+        "poisoning-tox",
+        "ent-ophthalmology"
+      ],
+      "synonyms": [
+        "Hypoglycaemic poisoning",
+        "Poisoning - Oral Hypoglycaemic"
+      ],
+      "is_pic": false
+    },
+    {
+      "title": "Pain - acute pain management link",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Pain_Acute_Pain_Management_Link/",
+      "categories": [
+        "procedures-resources"
+      ],
+      "synonyms": [],
+      "is_pic": false
+    },
+    {
+      "title": "Paracetamol poisoning",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Paracetamol_poisoning/",
+      "categories": [
+        "poisoning-tox"
+      ],
+      "synonyms": [
+        "Poisoning - Paracetamol"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Parapneumonic effusion",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Parapneumonic_effusion/",
+      "categories": [
+        "airway-breathing"
+      ],
+      "synonyms": [
+        "Empyema",
+        "Pleural effusion"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Parent resources",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Parent_resources/",
+      "categories": [
+        "procedures-resources"
+      ],
+      "synonyms": [],
+      "is_pic": false
+    },
+    {
+      "title": "Patient Blood Management in the Surgical Setting",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Patient_Blood_Management_in_the_Surgical_Setting/",
+      "categories": [
+        "procedures-resources",
+        "haem-onc"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Penetrating eye injury",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Penetrating_eye_injury/",
+      "categories": [
+        "trauma-injury"
+      ],
+      "synonyms": [
+        "Eye"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Periorbital and orbital cellulitis",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Periorbital_and_orbital_cellulitis/",
+      "categories": [
+        "fever-infection",
+        "skin-allergy"
+      ],
+      "synonyms": [
+        "Orbital Cellulitis"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Peripheral extravasation injuries: Initial management and washout procedure",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Peripheral_extravasation_injuries__Initial_management_and_washout_procedure/",
+      "categories": [
+        "trauma-injury"
+      ],
+      "synonyms": [
+        "Extravasation"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Petechiae and purpura",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Fever_and_Petechiae_Purpura/",
+      "categories": [
+        "haem-onc"
+      ],
+      "synonyms": [
+        "Fever and petechiae – purpura"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Phenobarbitone poisoning",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Phenobarbitone_poisoning/",
+      "categories": [
+        "poisoning-tox"
+      ],
+      "synonyms": [
+        "Poisoning – Phenobarbitone"
+      ],
+      "is_pic": false
+    },
+    {
+      "title": "Phenytoin poisoning",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Phenytoin_poisoning/",
+      "categories": [
+        "poisoning-tox"
+      ],
+      "synonyms": [
+        "Poisoning – Phenytoin"
+      ],
+      "is_pic": false
+    },
+    {
+      "title": "Poisoning - Acute Guidelines For Initial Management",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Poisoning_-_Acute_Guidelines_For_Initial_Management/",
+      "categories": [
+        "poisoning-tox"
+      ],
+      "synonyms": [
+        "Toxicology"
+      ],
+      "is_pic": false
+    },
+    {
+      "title": "Positional plagiocephaly",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Positional_plagiocephaly/",
+      "categories": [
+        "ent-ophthalmology"
+      ],
+      "synonyms": [
+        "Plagiocephaly"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Post-streptococcal glomerulonephritis (PSGN)",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Post-streptococcal_glomerulonephritis_(PSGN)/",
+      "categories": [
+        "fever-infection"
+      ],
+      "synonyms": [
+        "PSGN"
+      ],
+      "is_pic": false
+    },
+    {
+      "title": "Preschool asthma (1-5 years)",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Preschool_asthma_(1-5_years)/",
+      "categories": [
+        "airway-breathing"
+      ],
+      "synonyms": [
+        "Asthma in preschool-aged children (1-5 years)"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Primary immunodeficiencies",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Primary_immunodeficiencies/",
+      "categories": [
+        "haem-onc"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Primary spontaneous pneumothorax",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Primary_spontaneous_pneumothorax/",
+      "categories": [
+        "airway-breathing"
+      ],
+      "synonyms": [
+        "Pneumothorax"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Procedural sedation",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Procedural_sedation/",
+      "categories": [
+        "procedures-resources"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Prolonged fever",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Prolonged_fever/",
+      "categories": [
+        "fever-infection"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Pulled elbow",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Pulled_elbow/",
+      "categories": [
+        "trauma-injury"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Pyloric stenosis",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Pyloric_stenosis/",
+      "categories": [
+        "gi"
+      ],
+      "synonyms": [
+        "Hypertrophic Pyloric Stenosis"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Quetiapine Poisoning",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Quetiapine_Poisoning/",
+      "categories": [
+        "poisoning-tox"
+      ],
+      "synonyms": [
+        "Poisoning – Quetiapine"
+      ],
+      "is_pic": false
+    },
+    {
+      "title": "Rabies and Australian bat lyssavirus post exposure prophylaxis",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Rabies_and_Australian_bat_lyssavirus_post_exposure_prophylaxis/",
+      "categories": [
+        "fever-infection"
+      ],
+      "synonyms": [
+        "Australian Bat Lyssavirus"
+      ],
+      "is_pic": false
+    },
+    {
+      "title": "Recognition of the seriously unwell neonate and young infant",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Recognition_of_the_seriously_unwell_neonate_and_young_infant/",
+      "categories": [
+        "resus-collapse",
+        "neonatal"
+      ],
+      "synonyms": [
+        "Neonates",
+        "Seriously unwell neonate and young infant"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Recreational drug use and overdose",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Recreational_drug_use_and_overdose/",
+      "categories": [
+        "poisoning-tox"
+      ],
+      "synonyms": [
+        "Poisoning - Recreational drug use and overdose"
+      ],
+      "is_pic": false
+    },
+    {
+      "title": "Resuscitation - Appendices",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Resuscitation_Appendices/",
+      "categories": [
+        "resus-collapse"
+      ],
+      "synonyms": [],
+      "is_pic": false
+    },
+    {
+      "title": "Resuscitation: Care of the seriously unwell child",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Resuscitation__Care_of_the_seriously_unwell_child/",
+      "categories": [
+        "resus-collapse"
+      ],
+      "synonyms": [
+        "Care of the seriously unwell child"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Resuscitation: hospital management of cardiopulmonary arrest",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Resuscitation__hospital_management_of_cardiopulmonary_arrest/",
+      "categories": [
+        "resus-collapse"
+      ],
+      "synonyms": [
+        "CPR"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Resuscitation: Hospital Management of Cardiopulmonary Arrest COVID-19",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Resuscitation__Hospital_Management_of_Cardiopulmonary_Arrest_COVID-19/",
+      "categories": [
+        "resus-collapse",
+        "fever-infection"
+      ],
+      "synonyms": [
+        "CPR (COVID)"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Retrieval services",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Retrieval_services/",
+      "categories": [
+        "procedures-resources"
+      ],
+      "synonyms": [],
+      "is_pic": false
+    },
+    {
+      "title": "Risperidone Poisoning",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Risperidone_Poisoning/",
+      "categories": [
+        "poisoning-tox"
+      ],
+      "synonyms": [
+        "Poisoning – Risperidone"
+      ],
+      "is_pic": false
+    },
+    {
+      "title": "Salicylates poisoning",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Salicylates_Posioning/",
+      "categories": [
+        "poisoning-tox"
+      ],
+      "synonyms": [
+        "Poisoning - Salicylates"
+      ],
+      "is_pic": false
+    },
+    {
+      "title": "Scan meeting resources",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Scan_meeting_resources/",
+      "categories": [
+        "procedures-resources"
+      ],
+      "synonyms": [],
+      "is_pic": false
+    },
+    {
+      "title": "Seizures - acute management",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Seizures_-_acute_management/",
+      "categories": [
+        "neuro"
+      ],
+      "synonyms": [
+        "Convulsions",
+        "Seizures",
+        "Status epilepticus"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Selective serotonin re-uptake inhibitors SSRIs poisoning",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Selective_serotonin_re-uptake_inhibitors_SSRIs_poisoning/",
+      "categories": [
+        "poisoning-tox"
+      ],
+      "synonyms": [
+        "Poisoning - Selective Serotonin Re-uptake Inhibitors (SSRIs)"
+      ],
+      "is_pic": false
+    },
+    {
+      "title": "Sepsis – assessment and management",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/SEPSIS_assessment_and_management/",
+      "categories": [
+        "resus-collapse",
+        "fever-infection"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Serotonin and noradrenaline re-uptake inhibitors SNRIs poisoning",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Serotonin_and_noradrenaline_re-uptake_inhibitors_SNRIs_poisoning/",
+      "categories": [
+        "poisoning-tox"
+      ],
+      "synonyms": [
+        "Poisoning - Serotonin and Noradrenaline Re-uptake Inhibitors (SNRIs)"
+      ],
+      "is_pic": false
+    },
+    {
+      "title": "Serotonin toxicity",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Serotonin_toxicity/",
+      "categories": [
+        "poisoning-tox"
+      ],
+      "synonyms": [
+        "Poisoning - Serotonin Syndrome",
+        "Serotonin syndrome"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Serum Sickness and Serum Sickness like reactions (SSLRs)",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Serum_Sickness_and_Serum_Sickness_like_reactions_(SSLRs)/",
+      "categories": [
+        "skin-allergy"
+      ],
+      "synonyms": [],
+      "is_pic": false
+    },
+    {
+      "title": "Sexual health history taking in the adolescent",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Sexual_health_history_taking_in_the_adolescent/",
+      "categories": [
+        "gynae-sexual"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Sexually transmitted infections (STIs)",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Sexually_transmitted_infections_STIs/",
+      "categories": [
+        "fever-infection",
+        "gynae-sexual"
+      ],
+      "synonyms": [
+        "Adolescent gynaecology - Sexually transmitted infections"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Sickle cell disease",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Sickle_cell_disease/",
+      "categories": [
+        "haem-onc"
+      ],
+      "synonyms": [
+        "Fever and sickle cell disease"
+      ],
+      "is_pic": false
+    },
+    {
+      "title": "Sizing a one-piece hard collar",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Sizing_a_one-piece_hard_collar/",
+      "categories": [
+        "procedures-resources",
+        "ortho-nontrauma"
+      ],
+      "synonyms": [],
+      "is_pic": false
+    },
+    {
+      "title": "Slipped upper femoral epiphysis SUFE - Emergency Department",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/fractures/Slipped_upper_femoral_epiphysis_SUFE_-_Emergency_Department/",
+      "categories": [
+        "ortho-nontrauma"
+      ],
+      "synonyms": [],
+      "is_pic": false
+    },
+    {
+      "title": "Slow weight gain",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Slow_weight_gain/",
+      "categories": [
+        "procedures-resources",
+        "neonatal"
+      ],
+      "synonyms": [
+        "Failure to thrive",
+        "Poor growth"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Snakebite",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Snakebite/",
+      "categories": [
+        "poisoning-tox"
+      ],
+      "synonyms": [
+        "Envenomation and Bites",
+        "Poisoning – Snakebite"
+      ],
+      "is_pic": false
+    },
+    {
+      "title": "Sodium valproate poisoning",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Sodium_valproate_poisoning/",
+      "categories": [
+        "poisoning-tox"
+      ],
+      "synonyms": [
+        "Poisoning – Sodium Valproate",
+        "Valproate poisoning"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Sore throat",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Sore_throat/",
+      "categories": [
+        "ent-ophthalmology"
+      ],
+      "synonyms": [
+        "Pharyngitis",
+        "Tonsillitis"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Spider Bite - Big Black Spider",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Spider_Bite_-_Big_Black_Spider/",
+      "categories": [
+        "trauma-injury",
+        "poisoning-tox"
+      ],
+      "synonyms": [
+        "Poisoning - Spider Bite - Big Black Spider"
+      ],
+      "is_pic": false
+    },
+    {
+      "title": "Spider Bite – Redback Spider",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Spider_Bite_–_Redback_Spider/",
+      "categories": [
+        "trauma-injury",
+        "poisoning-tox"
+      ],
+      "synonyms": [
+        "Poisoning - Spider Bite - Redback Spider"
+      ],
+      "is_pic": false
+    },
+    {
+      "title": "Straddle injuries",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Straddle_injuries/",
+      "categories": [
+        "trauma-injury"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Stroke",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Stroke/",
+      "categories": [
+        "neuro"
+      ],
+      "synonyms": [],
+      "is_pic": false
+    },
+    {
+      "title": "Substance use (abuse)",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Substance_use_abuse/",
+      "categories": [
+        "trauma-injury",
+        "mental-behavioural"
+      ],
+      "synonyms": [
+        "Adolescent substance use"
+      ],
+      "is_pic": false
+    },
+    {
+      "title": "Suprapubic aspirate",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Suprapubic_aspirate/",
+      "categories": [
+        "procedures-resources"
+      ],
+      "synonyms": [
+        "SPA"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Supraventricular Tachycardia SVT",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Supraventricular_Tachycardia_SVT/",
+      "categories": [
+        "cardiology"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Syncope",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Syncope/",
+      "categories": [
+        "neuro"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "The acutely swollen joint",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/The_acutely_swollen_joint/",
+      "categories": [
+        "ortho-nontrauma"
+      ],
+      "synonyms": [
+        "Joint swelling",
+        "Swollen joint"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "The limping or non-weight bearing child",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Child_with_limp/",
+      "categories": [
+        "procedures-resources"
+      ],
+      "synonyms": [
+        "Limping or non-weight bearing Child"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "The penis and foreskin",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/The_penis_and_foreskin/",
+      "categories": [
+        "renal-urology-gu"
+      ],
+      "synonyms": [
+        "Balanitis",
+        "Circumcision",
+        "Foreskin",
+        "Paraphimosis",
+        "Penis",
+        "Zipper Injury"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Theophylline poisoning",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Theophylline_poisoning/",
+      "categories": [
+        "poisoning-tox"
+      ],
+      "synonyms": [
+        "Poisoning - Theophylline"
+      ],
+      "is_pic": false
+    },
+    {
+      "title": "Thoracic elevation device - Airway pad",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Thoracic_elevation_device_-_Airway_pad/",
+      "categories": [
+        "airway-breathing"
+      ],
+      "synonyms": [],
+      "is_pic": false
+    },
+    {
+      "title": "Thoracocentesis and chest drain insertion",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Thoracocentesis_and_chest_drain_insertion/",
+      "categories": [
+        "procedures-resources"
+      ],
+      "synonyms": [
+        "Chest drain insertion"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Toxidromes poisoning",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Toxidromes_poisoning/",
+      "categories": [
+        "poisoning-tox"
+      ],
+      "synonyms": [
+        "Poisoning - Toxidromes"
+      ],
+      "is_pic": false
+    },
+    {
+      "title": "Trauma - Pelvic injury",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Trauma_-_Pelvic_injury/",
+      "categories": [
+        "trauma-injury"
+      ],
+      "synonyms": [
+        "Pelvic injury"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Trauma - primary survey",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Major_paediatric_trauma_The_primary_survey/",
+      "categories": [
+        "trauma-injury"
+      ],
+      "synonyms": [
+        "Major paediatric trauma",
+        "Trauma"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Trauma – secondary survey",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Major_paediatric_trauma_the_secondary_survey/",
+      "categories": [
+        "trauma-injury"
+      ],
+      "synonyms": [
+        "Major paediatric trauma",
+        "Trauma"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Trauma: Tertiary Survey",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Trauma__Tertiary_Survey/",
+      "categories": [
+        "trauma-injury"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Tricyclic Antidepressant (TCA) Poisoning",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Tricyclic_Antidepressant_(TCA)_Poisoning/",
+      "categories": [
+        "poisoning-tox"
+      ],
+      "synonyms": [
+        "Poisoning - Tricyclic Overdose"
+      ],
+      "is_pic": false
+    },
+    {
+      "title": "Unsettled or crying babies",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Crying_Baby_Infant_Distress/",
+      "categories": [
+        "neonatal"
+      ],
+      "synonyms": [
+        "Colic",
+        "Infant Distress"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Upper limb non-use",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Upper_Limb_NonUse/",
+      "categories": [
+        "ortho-nontrauma"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Urinary Incontinence - Daytime wetting",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Urinary_Incontinence_-_Daytime_wetting/",
+      "categories": [
+        "renal-urology-gu"
+      ],
+      "synonyms": [
+        "Daytime wetting",
+        "Incontinence"
+      ],
+      "is_pic": false
+    },
+    {
+      "title": "Urinary tract infection",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Urinary_tract_infection/",
+      "categories": [
+        "fever-infection",
+        "renal-urology-gu"
+      ],
+      "synonyms": [
+        "Pyelonephritis"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Urticaria",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Urticaria/",
+      "categories": [
+        "skin-allergy"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Use of Activated Charcoal in Poisonings",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Use_of_Activated_Charcoal_in_Poisonings/",
+      "categories": [
+        "poisoning-tox"
+      ],
+      "synonyms": [
+        "Charcoal in Poisonings",
+        "Poisoning - Use of Activated Charcoal in Poisonings"
+      ],
+      "is_pic": false
+    },
+    {
+      "title": "Vancomycin",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Vancomycin/",
+      "categories": [
+        "haem-onc"
+      ],
+      "synonyms": [],
+      "is_pic": false
+    },
+    {
+      "title": "Vitamin D deficiency",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Vitamin_D_deficiency/",
+      "categories": [
+        "endocrine-metabolic"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Vomiting",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Vomiting/",
+      "categories": [
+        "gi"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "von Willebrand disease",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/von_Willebrand_disease/",
+      "categories": [
+        "haem-onc"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "Vulval and vaginal conditions",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Vulval_and_vaginal_conditions/",
+      "categories": [
+        "skin-allergy"
+      ],
+      "synonyms": [
+        "Adolescent gynaecology",
+        "Lichen Sclerosus (et Atrophicus)",
+        "Vaginal Bleeding",
+        "Vulvodynia",
+        "Vulvovaginitis"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Vulval ulcers",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Vulval_ulcers/",
+      "categories": [
+        "skin-allergy"
+      ],
+      "synonyms": [
+        "Adolescent gynaecology - vulval ulcers"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Weight loss acute",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Weight_loss_acute/",
+      "categories": [
+        "procedures-resources",
+        "neonatal"
+      ],
+      "synonyms": [],
+      "is_pic": false
+    },
+    {
+      "title": "Whooping cough (pertussis)",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Whooping_Cough_Pertussis/",
+      "categories": [
+        "airway-breathing"
+      ],
+      "synonyms": [
+        "Pertussis"
+      ],
+      "is_pic": true
+    },
+    {
+      "title": "Wound dressings - acute traumatic wounds",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Wound_dressings_acute_traumatic_wounds/",
+      "categories": [
+        "trauma-injury"
+      ],
+      "synonyms": [],
+      "is_pic": true
+    },
+    {
+      "title": "x - Complete an Online Death Certificate",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/x_-_Complete_an_Online_Death_Certificate/",
+      "categories": [
+        "procedures-resources"
+      ],
+      "synonyms": [],
+      "is_pic": false
+    }
+  ]
+}
