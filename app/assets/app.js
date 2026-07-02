@@ -113,10 +113,24 @@
       byPop.get(pop).push(c);
     }
 
+    // Group resources (adult-focused quick links, formerly the sidebar) by
+    // their population. Only resources with an explicit `population` field
+    // and a `tile` block get rendered as a home-screen tile.
+    const resByPop = new Map();
+    const allResources = (RESOURCES && RESOURCES.resources) || [];
+    for (const r of allResources) {
+      if (!r.population || !r.tile) continue;
+      if (!resByPop.has(r.population)) resByPop.set(r.population, []);
+      resByPop.get(r.population).push(r);
+    }
+
     return populations.map(pop => {
       const cats = byPop.get(pop.id) || [];
-      if (!cats.length) return "";
-      const catCount = cats.length;
+      const resources = (resByPop.get(pop.id) || [])
+        .slice()
+        .sort((a, b) => (a.tile.order || 999) - (b.tile.order || 999));
+      if (!cats.length && !resources.length) return "";
+      const tileCount = cats.length + resources.length;
       const guidelineCount = cats.reduce((sum, c) => sum + (c.count || 0), 0);
 
       // Expanded state persists per-population in localStorage; defaults to
@@ -128,13 +142,31 @@
         else if (stored === "1") expanded = true;
       } catch (e) {}
 
-      const tiles = cats.map(c => `
+      const catTiles = cats.map(c => `
         <a class="tile" href="#/cat/${esc(c.id)}" style="--tile-accent: ${esc(c.colour)};">
           <span class="tile__icon" aria-hidden="true">${iconSVG(c.icon)}</span>
           <span class="tile__label">${esc(c.label)}</span>
           <span class="tile__count">${c.count} guideline${c.count === 1 ? "" : "s"}</span>
         </a>
       `).join("");
+
+      const resourceTiles = resources.map(r => {
+        const t = r.tile;
+        const isInternal = r.type === "in-app";
+        const href = isInternal ? (r.internal_route || "#/") : (r.url || "#");
+        const attrs = isInternal ? "" : ` target="_blank" rel="noopener noreferrer"`;
+        const label = t.label || r.title;
+        const sub = t.subtitle || r.subtitle || (r.source || "");
+        return `
+          <a class="tile tile--resource" href="${esc(href)}"${attrs}
+             style="--tile-accent: ${esc(t.colour || "#5b6b7c")};">
+            <span class="tile__icon" aria-hidden="true">${iconSVG(t.icon || r.icon || "document")}</span>
+            <span class="tile__label">${esc(label)}</span>
+            <span class="tile__count tile__count--sub">${esc(sub)}</span>
+          </a>
+        `;
+      }).join("");
+      const tiles = catTiles + resourceTiles;
 
       return `
         <section class="pop-section${expanded ? " is-open" : ""}" data-pop="${esc(pop.id)}">
@@ -144,7 +176,7 @@
               ${pop.subtitle ? `<span class="pop-header__sub">${esc(pop.subtitle)}</span>` : ""}
             </span>
             <span class="pop-header__meta">
-              <span class="pop-header__count">${catCount} ${catCount === 1 ? "tile" : "tiles"} · ${guidelineCount}</span>
+              <span class="pop-header__count">${tileCount} ${tileCount === 1 ? "tile" : "tiles"}${guidelineCount ? " · " + guidelineCount + " guidelines" : ""}</span>
               <svg class="pop-header__chev" viewBox="0 0 24 24" width="18" height="18" fill="none"
                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                 <path d="M6 9l6 6 6-6"/>
@@ -209,7 +241,7 @@
           const href = isInternal ? esc(r.internal_route || "#/") : esc(r.url);
           const attrs = isInternal ? "" : ` target="_blank" rel="noopener noreferrer"`;
           const badge = r.type
-            ? `<span class="sidebar__type-badge" data-type="${esc(r.type.toLowerCase())}">${esc(r.type.toUpperCase())}</span>`
+            ? `<span class="type-badge" data-type="${esc(r.type.toLowerCase())}">${esc(r.type.toUpperCase())}</span>`
             : "";
           return `
             <li>
@@ -308,7 +340,7 @@
 
     if (route.name === "home") {
       back.style.visibility = "hidden";
-      title.innerHTML = `RCH guidelines <span class="subtitle">by complaint</span>`;
+      title.textContent = `Guidelines`;
       main.innerHTML = renderHome();
       bindHome();
     } else if (route.name === "category") {
@@ -944,111 +976,6 @@
     window.addEventListener("popstate", render);
   }
 
-  // ============================================================
-  // ===                QUICK-LINKS SIDEBAR                   ===
-  // ============================================================
-
-  function renderSidebar() {
-    const body = $("#sidebar-body");
-    if (!RESOURCES || !Array.isArray(RESOURCES.resources)) {
-      body.innerHTML = `<p class="empty-state" style="padding:18px 4px;">No resources loaded.</p>`;
-      return;
-    }
-    const catsById = Object.fromEntries((RESOURCES.categories || []).map(c => [c.id, c]));
-    const byCat = new Map();
-    for (const r of RESOURCES.resources) {
-      const cid = r.category || "_other";
-      if (!byCat.has(cid)) byCat.set(cid, []);
-      byCat.get(cid).push(r);
-    }
-    // Preserve the order from RESOURCES.categories, then append any unknown groups.
-    const orderedIds = [
-      ...(RESOURCES.categories || []).map(c => c.id),
-      ...Array.from(byCat.keys()).filter(id => !catsById[id]),
-    ].filter(id => byCat.has(id));
-
-    body.innerHTML = orderedIds.map(cid => {
-      const c = catsById[cid] || { id: cid, label: "Other", icon: "document" };
-      const items = byCat.get(cid).map(r => {
-        const icon = iconSVG(r.icon || c.icon || "document");
-        const badge = r.type
-          ? `<span class="sidebar__type-badge" data-type="${esc(r.type.toLowerCase())}">${esc(r.type.toUpperCase())}</span>`
-          : "";
-        const sub = r.subtitle
-          ? `<div class="sidebar__link-sub">${esc(r.subtitle)}</div>` : "";
-        const metaBits = [];
-        if (r.source) metaBits.push(esc(r.source));
-        if (r.last_updated) metaBits.push("updated " + esc(r.last_updated));
-        const meta = metaBits.length
-          ? `<div class="sidebar__link-meta">${metaBits.join(" &middot; ")}</div>` : "";
-        // In-app entries route within the app (no new tab). External resources open in new tab.
-        const isInternal = r.type === "in-app";
-        const href = isInternal ? esc(r.internal_route || "#/") : esc(r.url);
-        const linkAttrs = isInternal ? "" : ` target="_blank" rel="noopener noreferrer"`;
-        return `
-          <li>
-            <a class="sidebar__link" href="${href}"${linkAttrs}>
-              <span class="sidebar__link-icon" aria-hidden="true">${icon}</span>
-              <span class="sidebar__link-body">
-                <span class="sidebar__link-title">
-                  <span>${esc(r.title)}</span>
-                  ${badge}
-                </span>
-                ${sub}
-                ${meta}
-              </span>
-            </a>
-          </li>`;
-      }).join("");
-      return `
-        <section class="sidebar__group">
-          <div class="sidebar__group-head">
-            <span class="sidebar__group-icon" aria-hidden="true">${iconSVG(c.icon || "document")}</span>
-            <span>${esc(c.label)}</span>
-          </div>
-          <ul class="sidebar__list">${items}</ul>
-        </section>`;
-    }).join("");
-  }
-
-  function openSidebar() {
-    $("#sidebar").classList.add("is-open");
-    $("#sidebar").setAttribute("aria-hidden", "false");
-    $("#menu-btn").setAttribute("aria-expanded", "true");
-    const bd = $("#sidebar-backdrop");
-    bd.hidden = false;
-    // Force layout so the opacity transition runs.
-    void bd.offsetWidth;
-    bd.classList.add("is-open");
-    document.body.style.overflow = "hidden";
-  }
-  function closeSidebar() {
-    $("#sidebar").classList.remove("is-open");
-    $("#sidebar").setAttribute("aria-hidden", "true");
-    $("#menu-btn").setAttribute("aria-expanded", "false");
-    const bd = $("#sidebar-backdrop");
-    bd.classList.remove("is-open");
-    // Hide after the transition so it stops capturing clicks.
-    setTimeout(() => { if (!bd.classList.contains("is-open")) bd.hidden = true; }, 220);
-    document.body.style.overflow = "";
-  }
-
-  function bindSidebar() {
-    $("#menu-btn").addEventListener("click", openSidebar);
-    $("#sidebar-close").addEventListener("click", closeSidebar);
-    $("#sidebar-backdrop").addEventListener("click", closeSidebar);
-    document.addEventListener("keydown", e => {
-      if (e.key === "Escape" && $("#sidebar").classList.contains("is-open")) closeSidebar();
-    });
-    // Close when an internal link is clicked (external links open new tab so the
-    // sidebar can stay; but if we ever add an in-app route to a resource, this
-    // keeps UX consistent).
-    $("#sidebar-body").addEventListener("click", e => {
-      const a = e.target.closest("a");
-      if (a && a.target !== "_blank") closeSidebar();
-    });
-  }
-
   // ----- boot -----
   async function boot() {
     try {
@@ -1063,8 +990,6 @@
       CAT_BY_ID = Object.fromEntries(DATA.categories.map(c => [c.id, c]));
       bindSearch();
       bindNav();
-      bindSidebar();
-      renderSidebar();
       render();
     } catch (err) {
       $("#app").innerHTML = `<p class="empty-state">Could not load app data: ${esc(err.message)}</p>`;

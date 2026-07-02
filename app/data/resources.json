@@ -1,37 +1,26 @@
 {
-  "_note": "Quick-links sidebar + in-app reference pages. To add a new external resource: append to `resources` with type 'pdf' or 'link' and a `url`. To add a new in-app reference: add an entry to `resources` with type 'in-app' and matching `internal_route`, plus the page content in `in_app_pages` keyed by id. Resources with `pin_to_categories` also appear as pinned cards on those category views in the main guideline section.",
-  "schema_version": 2,
-  "categories": [
-    {
-      "id": "drug-references",
-      "label": "Drug & infusion references",
-      "icon": "vial"
-    },
-    {
-      "id": "trauma-references",
-      "label": "Trauma quick references",
-      "icon": "bandage"
-    },
-    {
-      "id": "airway-references",
-      "label": "Airway & intubation",
-      "icon": "lungs"
-    }
-  ],
+  "_note": "Adult-population resources render as tiles under the Adult section on the home screen. Resources with type 'in-app' also require a matching entry under 'in_app_pages' keyed by id. Resources with 'pin_to_categories' also appear as pinned cards at the top of those category views.",
+  "schema_version": 3,
   "resources": [
     {
       "id": "arv-infusions-table",
-      "category": "drug-references",
       "title": "ARV Infusions Table",
       "subtitle": "36 adult IV infusions — concentrations, indications, bolus & infusion rates",
       "source": "Adult Retrieval Victoria (Ambulance Victoria)",
       "last_updated": "January 2019",
       "type": "pdf",
-      "url": "https://www.ambulance.vic.gov.au/sites/default/files/2025-05/ARV-infusions-table.pdf"
+      "url": "https://www.ambulance.vic.gov.au/sites/default/files/2025-05/ARV-infusions-table.pdf",
+      "population": "adult",
+      "tile": {
+        "label": "ARV Infusions",
+        "subtitle": "Ambulance Victoria · PDF",
+        "colour": "#6c3483",
+        "icon": "vial",
+        "order": 20
+      }
     },
     {
       "id": "anticoag-reversal-hi",
-      "category": "trauma-references",
       "title": "Anticoag reversal · head injury",
       "subtitle": "In-app pathway by drug class (adult). Adapted from REACH.",
       "source": "Adapted from REACH Victorian State Trauma System",
@@ -39,21 +28,18 @@
       "type": "in-app",
       "internal_route": "#/resources/anticoag-reversal-hi",
       "icon": "activity",
-      "pin_to_categories": ["trauma-injury", "resus-collapse", "neuro"]
-    },
-    {
-      "id": "reach-anticoag-hi",
-      "category": "trauma-references",
-      "title": "REACH: full anticoag-in-trauma guideline",
-      "subtitle": "Live source — Head injury and oral anticoagulants",
-      "source": "Victorian State Trauma System (REACH)",
-      "last_updated": "live source",
-      "type": "link",
-      "url": "https://trauma.reach.vic.gov.au/specialist/anticoagulation-in-trauma/head-injury-and-oral-anticoagulants/"
+      "pin_to_categories": ["trauma-injury", "resus-collapse", "neuro"],
+      "population": "adult",
+      "tile": {
+        "label": "Anticoag reversal · HI",
+        "subtitle": "REACH · in-app pathway",
+        "colour": "#a93226",
+        "icon": "activity",
+        "order": 30
+      }
     },
     {
       "id": "alfred-intubation-checklist",
-      "category": "airway-references",
       "title": "Intubation checklist (interactive)",
       "subtitle": "Alfred ICU · check off each item pre-intubation",
       "source": "Alfred ICU Airway Team",
@@ -61,17 +47,15 @@
       "type": "in-app",
       "internal_route": "#/resources/alfred-intubation-checklist",
       "icon": "activity",
-      "pin_to_categories": ["airway-breathing", "resus-collapse", "procedures-resources"]
-    },
-    {
-      "id": "alfred-intubation-checklist-source",
-      "category": "airway-references",
-      "title": "Alfred ICU intubation checklist (source card)",
-      "subtitle": "Original card + editable PowerPoint at intensiveblog.com",
-      "source": "Alfred ICU Airway Team via intensiveblog",
-      "last_updated": "v15 · 17 May 2017",
-      "type": "link",
-      "url": "https://intensiveblog.com/alfred-icu-intubation-checklist/"
+      "pin_to_categories": ["airway-breathing", "resus-collapse", "procedures-resources"],
+      "population": "adult",
+      "tile": {
+        "label": "Intubation checklist",
+        "subtitle": "Alfred ICU · interactive",
+        "colour": "#1f6f5c",
+        "icon": "lungs",
+        "order": 40
+      }
     }
   ],
   "in_app_pages": {
