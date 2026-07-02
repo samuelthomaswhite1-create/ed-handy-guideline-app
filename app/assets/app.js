@@ -100,18 +100,75 @@
 
   // ----- renderers -----
   function renderHome() {
-    const tiles = DATA.categories.map(c => `
-      <a class="tile" href="#/cat/${esc(c.id)}" style="--tile-accent: ${esc(c.colour)};">
-        <span class="tile__icon" aria-hidden="true">${iconSVG(c.icon)}</span>
-        <span class="tile__label">${esc(c.label)}</span>
-        <span class="tile__count">${c.count} guideline${c.count === 1 ? "" : "s"}</span>
-      </a>
-    `).join("");
+    const populations = (DATA.populations && DATA.populations.length)
+      ? DATA.populations
+      : [{ id: "child", label: "Child", subtitle: "", default_expanded: true }];
 
-    return `
-      <p class="section-title">By presenting complaint</p>
-      <div class="tile-grid">${tiles}</div>
-    `;
+    // Group categories by their population field. Categories with no
+    // population (legacy data) fall back to "child".
+    const byPop = new Map();
+    for (const c of DATA.categories) {
+      const pop = c.population || "child";
+      if (!byPop.has(pop)) byPop.set(pop, []);
+      byPop.get(pop).push(c);
+    }
+
+    return populations.map(pop => {
+      const cats = byPop.get(pop.id) || [];
+      if (!cats.length) return "";
+      const catCount = cats.length;
+      const guidelineCount = cats.reduce((sum, c) => sum + (c.count || 0), 0);
+
+      // Expanded state persists per-population in localStorage; defaults to
+      // pop.default_expanded (both open on first visit).
+      let expanded = pop.default_expanded !== false;
+      try {
+        const stored = localStorage.getItem(`rch-app:pop-expanded:${pop.id}`);
+        if (stored === "0") expanded = false;
+        else if (stored === "1") expanded = true;
+      } catch (e) {}
+
+      const tiles = cats.map(c => `
+        <a class="tile" href="#/cat/${esc(c.id)}" style="--tile-accent: ${esc(c.colour)};">
+          <span class="tile__icon" aria-hidden="true">${iconSVG(c.icon)}</span>
+          <span class="tile__label">${esc(c.label)}</span>
+          <span class="tile__count">${c.count} guideline${c.count === 1 ? "" : "s"}</span>
+        </a>
+      `).join("");
+
+      return `
+        <section class="pop-section${expanded ? " is-open" : ""}" data-pop="${esc(pop.id)}">
+          <button type="button" class="pop-header" aria-expanded="${expanded}" data-pop-toggle="${esc(pop.id)}">
+            <span class="pop-header__body">
+              <span class="pop-header__label">${esc(pop.label)}</span>
+              ${pop.subtitle ? `<span class="pop-header__sub">${esc(pop.subtitle)}</span>` : ""}
+            </span>
+            <span class="pop-header__meta">
+              <span class="pop-header__count">${catCount} ${catCount === 1 ? "tile" : "tiles"} · ${guidelineCount}</span>
+              <svg class="pop-header__chev" viewBox="0 0 24 24" width="18" height="18" fill="none"
+                   stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M6 9l6 6 6-6"/>
+              </svg>
+            </span>
+          </button>
+          <div class="pop-section__body">
+            <div class="tile-grid">${tiles}</div>
+          </div>
+        </section>`;
+    }).join("");
+  }
+
+  function bindHome() {
+    document.querySelectorAll("[data-pop-toggle]").forEach(btn => {
+      btn.addEventListener("click", () => {
+        const pop = btn.getAttribute("data-pop-toggle");
+        const section = btn.closest(".pop-section");
+        const open = !section.classList.contains("is-open");
+        section.classList.toggle("is-open", open);
+        btn.setAttribute("aria-expanded", open ? "true" : "false");
+        try { localStorage.setItem(`rch-app:pop-expanded:${pop}`, open ? "1" : "0"); } catch (e) {}
+      });
+    });
   }
 
   function renderCategory(catId) {
@@ -219,6 +276,7 @@
             <div class="guideline__meta">
               <span class="guideline__cats">${esc(cats)}</span>
               ${g.is_pic ? `<span class="pic-badge" title="Paediatric Improvement Collaborative — state-wide endorsed">PIC</span>` : ""}
+              ${g.is_pdf || g.source === "austin" ? `<span class="pic-badge pic-badge--pdf" title="Opens a PDF from ${esc(g.source === "austin" ? "Austin Health" : "publisher")}">PDF</span>` : ""}
             </div>
           </div>
           <svg class="guideline__chev" viewBox="0 0 24 24" width="18" height="18"
@@ -252,6 +310,7 @@
       back.style.visibility = "hidden";
       title.innerHTML = `RCH guidelines <span class="subtitle">by complaint</span>`;
       main.innerHTML = renderHome();
+      bindHome();
     } else if (route.name === "category") {
       back.style.visibility = "visible";
       const cat = CAT_BY_ID[route.id];

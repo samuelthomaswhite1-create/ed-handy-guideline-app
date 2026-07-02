@@ -1,9 +1,13 @@
 """Build the single JSON file the web app consumes.
 
 Combines:
-  - The 19-category taxonomy with display labels and accent colours
-  - All 288 real guidelines with categories + synonyms
-  - Provenance metadata so the app can show "data fetched on YYYY-MM-DD"
+  - Two populations (Child / Adult) that group tiles on the home screen
+  - Child categories: 19 tiles derived from the RCH taxonomy in
+    `categorise_guidelines.CATEGORIES`
+  - Adult categories: currently 1 tile (Toxicology, backed by Austin Health's
+    Clinical Toxicology Guidelines). Room to grow.
+  - Guidelines from both sources merged into a single searchable list; each
+    guideline knows which categories it belongs to and where it originated.
 
 Output:
   app/data/app_data.json
@@ -17,47 +21,75 @@ import re
 from collections import defaultdict
 from pathlib import Path
 
-# Import CATEGORIES so this stays the single source of truth
+# Import CATEGORIES so this stays the single source of truth for the child
+# (RCH) taxonomy.
 import sys
 sys.path.insert(0, str(Path(__file__).parent))
-from categorise_guidelines import CATEGORIES  # noqa: E402
+from categorise_guidelines import CATEGORIES as CHILD_CATEGORIES  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
-SRC_RAW = ROOT / "data" / "rch_guidelines_raw.json"
-SRC_CAT = ROOT / "data" / "categories_proposed.json"
-OUT = ROOT / "app" / "data" / "app_data.json"
+SRC_RAW    = ROOT / "data" / "rch_guidelines_raw.json"
+SRC_CAT    = ROOT / "data" / "categories_proposed.json"
+SRC_AUSTIN = ROOT / "data" / "austin_guidelines_raw.json"
+OUT        = ROOT / "app" / "data" / "app_data.json"
 
-# Distinctive accent colours - clinical/muted, not Bootstrap-default.
-# Each is paired with a simple lucide-style stroke icon name (inline SVG kept
-# in the front-end). Icon name is a hint; the app maps it to an inline SVG.
+# Populations (top-level home-screen groupings).
+POPULATIONS = [
+    {
+        "id": "child",
+        "label": "Child",
+        "subtitle": "Paediatric — RCH Melbourne CPGs, by presenting complaint",
+        "default_expanded": True,
+    },
+    {
+        "id": "adult",
+        "label": "Adult",
+        "subtitle": "General adult references, by topic",
+        "default_expanded": True,
+    },
+]
+
+# Adult categories (grows over time). Order = home-screen display order.
+ADULT_CATEGORIES = [
+    ("adult-toxicology", "Toxicology"),
+]
+
+# Display metadata for every category. Colour + icon apply to the tile and
+# subsequent list/pinned rendering. Population determines which home-screen
+# section the tile appears under.
 CATEGORY_META = {
-    "resus-collapse":       {"colour": "#c0392b", "icon": "activity"},      # red
-    "airway-breathing":     {"colour": "#2e86ab", "icon": "lungs"},          # steel blue
-    "cardiology":           {"colour": "#a93226", "icon": "heart-pulse"},    # crimson
-    "fever-infection":      {"colour": "#d35400", "icon": "thermometer"},    # burnt orange
-    "trauma-injury":        {"colour": "#7d3c98", "icon": "bandage"},        # plum
-    "neuro":                {"colour": "#5d6d7e", "icon": "brain"},          # slate
-    "gi":                   {"colour": "#b9770e", "icon": "stomach"},        # ochre
-    "renal-urology-gu":     {"colour": "#1f6f5c", "icon": "droplet"},        # teal
-    "endocrine-metabolic":  {"colour": "#b03a2e", "icon": "flask"},          # rust
-    "haem-onc":             {"colour": "#6c3483", "icon": "vial"},           # purple
-    "skin-allergy":         {"colour": "#cb6a3b", "icon": "skin"},           # terracotta
-    "poisoning-tox":        {"colour": "#7e5109", "icon": "biohazard"},      # bronze
-    "ent-ophthalmology":    {"colour": "#1a5276", "icon": "ear-eye"},        # navy
-    "ortho-nontrauma":      {"colour": "#797d7f", "icon": "bone"},           # warm grey
-    "gynae-sexual":         {"colour": "#9b1b5b", "icon": "venus"},          # magenta
-    "neonatal":             {"colour": "#7d6608", "icon": "baby"},           # mustard
-    "mental-behavioural":   {"colour": "#117a65", "icon": "head-mind"},      # deep teal
-    "procedures-resources": {"colour": "#34495e", "icon": "tools"},          # dark slate
-    "resources-equity":     {"colour": "#5b2c6f", "icon": "people"},         # deep purple
+    # ---- Child (RCH) ----
+    "resus-collapse":       {"colour": "#c0392b", "icon": "activity",     "population": "child"},
+    "airway-breathing":     {"colour": "#2e86ab", "icon": "lungs",         "population": "child"},
+    "cardiology":           {"colour": "#a93226", "icon": "heart-pulse",   "population": "child"},
+    "fever-infection":      {"colour": "#d35400", "icon": "thermometer",   "population": "child"},
+    "trauma-injury":        {"colour": "#7d3c98", "icon": "bandage",       "population": "child"},
+    "neuro":                {"colour": "#5d6d7e", "icon": "brain",         "population": "child"},
+    "gi":                   {"colour": "#b9770e", "icon": "stomach",       "population": "child"},
+    "renal-urology-gu":     {"colour": "#1f6f5c", "icon": "droplet",       "population": "child"},
+    "endocrine-metabolic":  {"colour": "#b03a2e", "icon": "flask",         "population": "child"},
+    "haem-onc":             {"colour": "#6c3483", "icon": "vial",          "population": "child"},
+    "skin-allergy":         {"colour": "#cb6a3b", "icon": "skin",          "population": "child"},
+    "poisoning-tox":        {"colour": "#7e5109", "icon": "biohazard",     "population": "child"},
+    "ent-ophthalmology":    {"colour": "#1a5276", "icon": "ear-eye",       "population": "child"},
+    "ortho-nontrauma":      {"colour": "#797d7f", "icon": "bone",          "population": "child"},
+    "gynae-sexual":         {"colour": "#9b1b5b", "icon": "venus",         "population": "child"},
+    "neonatal":             {"colour": "#7d6608", "icon": "baby",          "population": "child"},
+    "mental-behavioural":   {"colour": "#117a65", "icon": "head-mind",     "population": "child"},
+    "procedures-resources": {"colour": "#34495e", "icon": "tools",         "population": "child"},
+    "resources-equity":     {"colour": "#5b2c6f", "icon": "people",        "population": "child"},
+
+    # ---- Adult ----
+    "adult-toxicology":     {"colour": "#2c6e49", "icon": "biohazard",     "population": "adult"},
 }
 
 
-def main() -> None:
+def child_guidelines() -> tuple[list[dict], dict[str, list[str]]]:
     raw_entries = json.loads(SRC_RAW.read_text(encoding="utf-8"))
     cat_entries = json.loads(SRC_CAT.read_text(encoding="utf-8"))
 
-    # Build redirect/synonym lookup keyed by canonical title (case-insensitive)
+    # Redirect -> synonym lookup so a guideline can carry its "(see >> X)" text
+    # aliases into search.
     synonyms: dict[str, list[str]] = defaultdict(list)
     for e in raw_entries:
         if e["is_redirect"] and e["redirects_to"]:
@@ -67,55 +99,95 @@ def main() -> None:
             if syn and syn.lower() != key:
                 synonyms[key].append(syn)
 
-    # Build category list with display metadata + counts
-    counts_by_cat: dict[str, int] = defaultdict(int)
+    out: list[dict] = []
     for g in cat_entries:
+        title_lower = g["title"].lower()
+        out.append({
+            "title": g["title"],
+            "url":   g["url"],
+            "categories": g["categories"],
+            "synonyms": sorted(set(synonyms.get(title_lower, []))),
+            "is_pic":  g["is_pic"],
+            "source":  "rch",
+        })
+    return out, dict(synonyms)
+
+
+def austin_guidelines() -> list[dict]:
+    if not SRC_AUSTIN.exists():
+        print(f"WARN: {SRC_AUSTIN.name} not found -- adult toxicology tile will be empty.")
+        return []
+    raw = json.loads(SRC_AUSTIN.read_text(encoding="utf-8"))
+    out: list[dict] = []
+    for g in raw:
+        # A guideline that appears in more than one Austin letter group carries
+        # the alternates as free-text synonyms so search still finds it under
+        # neighbouring names.
+        syns: list[str] = []
+        if g.get("heading") and g["heading"] not in g["title"]:
+            syns.append(g["heading"])
+        if g.get("anchor") and g["anchor"].lower() not in ("clinical guideline", "guideline"):
+            syns.append(g["anchor"])
+        out.append({
+            "title": g["title"],
+            "url":   g["url"],
+            "categories": ["adult-toxicology"],
+            "synonyms": sorted(set(syns)),
+            "is_pic":  False,
+            "is_pdf":  True,
+            "source":  "austin",
+            "group":   g.get("group"),
+        })
+    return out
+
+
+def main() -> None:
+    child_gs, _ = child_guidelines()
+    adult_gs = austin_guidelines()
+    all_gs = child_gs + adult_gs
+
+    counts_by_cat: dict[str, int] = defaultdict(int)
+    for g in all_gs:
         for c in g["categories"]:
             counts_by_cat[c] += 1
 
-    categories_out = []
-    for cid, label in CATEGORIES:
+    categories_out: list[dict] = []
+    for cid, label in list(CHILD_CATEGORIES) + list(ADULT_CATEGORIES):
         meta = CATEGORY_META[cid]
         categories_out.append({
             "id": cid,
             "label": label,
             "colour": meta["colour"],
-            "icon": meta["icon"],
-            "count": counts_by_cat[cid],
-        })
-
-    # Final guideline list - one record per real guideline, ready for the app
-    guidelines_out = []
-    for g in cat_entries:
-        title_lower = g["title"].lower()
-        syns = sorted(set(synonyms.get(title_lower, [])))
-        guidelines_out.append({
-            "title": g["title"],
-            "url": g["url"],
-            "categories": g["categories"],
-            "synonyms": syns,
-            "is_pic": g["is_pic"],
+            "icon":   meta["icon"],
+            "population": meta["population"],
+            "count":  counts_by_cat[cid],
         })
 
     payload = {
-        "schema_version": 1,
+        "schema_version": 2,
         "generated_at": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "source": {
-            "rch_index_url": "https://www.rch.org.au/clinicalguide/about_rch_cpgs/welcome_to_the_clinical_practice_guidelines/",
-            "note": "Titles and URLs only. Guideline body text is never cached - the app links out to live RCH pages.",
+        "sources": {
+            "rch_index_url":    "https://www.rch.org.au/clinicalguide/about_rch_cpgs/welcome_to_the_clinical_practice_guidelines/",
+            "austin_tox_index": "https://www.austin.org.au/clinical-toxicology-guidelines/",
+            "note": "Titles and URLs only. Body text is never cached -- the app links out to the live publisher pages/PDFs.",
         },
-        "categories": categories_out,
-        "guidelines": guidelines_out,
+        "populations": POPULATIONS,
+        "categories":  categories_out,
+        "guidelines":  all_gs,
     }
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
 
     print(f"Wrote {OUT}")
-    print(f"  categories : {len(categories_out)}")
-    print(f"  guidelines : {len(guidelines_out)}")
-    syn_count = sum(len(g["synonyms"]) for g in guidelines_out)
-    print(f"  synonyms   : {syn_count} attached to {sum(1 for g in guidelines_out if g['synonyms'])} guidelines")
+    print(f"  populations : {len(POPULATIONS)}")
+    print(f"  categories  : {len(categories_out)}"
+          f"  (child {sum(1 for c in categories_out if c['population']=='child')}"
+          f", adult {sum(1 for c in categories_out if c['population']=='adult')})")
+    print(f"  guidelines  : {len(all_gs)}"
+          f"  (RCH {len(child_gs)}, Austin {len(adult_gs)})")
+    syn_count = sum(len(g["synonyms"]) for g in all_gs)
+    print(f"  synonyms    : {syn_count} attached to {sum(1 for g in all_gs if g['synonyms'])} guidelines")
 
 
 if __name__ == "__main__":

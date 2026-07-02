@@ -1,0 +1,1452 @@
+[
+  {
+    "title": "Activated Charcoal (multiple-dose)",
+    "heading": "Activated Charcoal (multiple-dose)",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/MDAC%20Guideline.March2024.pdf",
+    "group": "Enhanced elimination",
+    "page_id": 1828,
+    "also_in_groups": []
+  },
+  {
+    "title": "Amanita phalloides (Death Cap)",
+    "heading": "Amanita phalloides (Death Cap)",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Amanita%20V5_5_2025.pdf",
+    "group": "A-B",
+    "page_id": 1780,
+    "also_in_groups": [
+      "M-O"
+    ]
+  },
+  {
+    "title": "Amanita phalloides (Death Cap) — Identification of Fungi in Victoria",
+    "heading": "Amanita phalloides (Death Cap)",
+    "anchor": "Identification of Fungi in Victoria",
+    "url": "https://www.austin.org.au/Assets/Files/Fungi%20Identification%20Victoria%20_Nov%202023[1].pdf",
+    "group": "A-B",
+    "page_id": 1780,
+    "also_in_groups": [
+      "M-O"
+    ]
+  },
+  {
+    "title": "Amiodarone",
+    "heading": "Amiodarone",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Amiodarone_May%202024.pdf",
+    "group": "A-B",
+    "page_id": 1780,
+    "also_in_groups": []
+  },
+  {
+    "title": "Amisulpride",
+    "heading": "Amisulpride",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Amisulpride%20guideline_Dec2022.pdf",
+    "group": "A-B",
+    "page_id": 1780,
+    "also_in_groups": []
+  },
+  {
+    "title": "Amphetamine",
+    "heading": "Amphetamine",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Amphetamines%20guideline.%20Nov%202024.pdf",
+    "group": "A-B",
+    "page_id": 1780,
+    "also_in_groups": []
+  },
+  {
+    "title": "Angiotensin Converting Enzyme Inhibitors (ACEIs) and Angiotension 2 Receptor Blockers (ARBs)",
+    "heading": "Angiotensin Converting Enzyme Inhibitors (ACEIs) and Angiotension 2 Receptor Blockers (ARBs)",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/ACEi_V3_8_2025.pdf",
+    "group": "A-B",
+    "page_id": 1780,
+    "also_in_groups": []
+  },
+  {
+    "title": "Anticoagulant — Factor Xa inhibitors",
+    "heading": "Anticoagulant",
+    "anchor": "Clinical Guideline (Factor Xa inhibitors)",
+    "url": "https://www.austin.org.au/Assets/Files/DOAC%20Guideline_Nov2022.pdf",
+    "group": "A-B",
+    "page_id": 1780,
+    "also_in_groups": [
+      "C-F",
+      "P-R"
+    ]
+  },
+  {
+    "title": "Anticoagulant — Long Acting Rodenticides",
+    "heading": "Anticoagulant",
+    "anchor": "Clinical Guideline (Long Acting Rodenticides)",
+    "url": "https://www.austin.org.au/Assets/Files/Long%20Acting%20Anticoagulant%20Rodenticides%20Guideline_June%202024.pdf",
+    "group": "A-B",
+    "page_id": 1780,
+    "also_in_groups": [
+      "P-R"
+    ]
+  },
+  {
+    "title": "Anticoagulant — Warfarin",
+    "heading": "Anticoagulant",
+    "anchor": "Clinical Guideline (Warfarin)",
+    "url": "https://www.austin.org.au/Assets/Files/Warfarin_Aug%202024.pdf",
+    "group": "A-B",
+    "page_id": 1780,
+    "also_in_groups": [
+      "V-Z"
+    ]
+  },
+  {
+    "title": "Anticonvulsant — Carbamazepine",
+    "heading": "Anticonvulsant",
+    "anchor": "Clinical Guideline (Carbamazepine)",
+    "url": "https://www.austin.org.au/Assets/Files/Carbamazepine%20guideline%20_V4_8_2025.pdf",
+    "group": "A-B",
+    "page_id": 1780,
+    "also_in_groups": [
+      "C-F"
+    ]
+  },
+  {
+    "title": "Anticonvulsant — Lamotrigine",
+    "heading": "Anticonvulsant",
+    "anchor": "Clinical Guideline (Lamotrigine)",
+    "url": "https://www.austin.org.au/Assets/Files/Lamotrigine%20Guideline.Oct%202023[1].pdf",
+    "group": "A-B",
+    "page_id": 1780,
+    "also_in_groups": [
+      "J-L"
+    ]
+  },
+  {
+    "title": "Anticonvulsant — Phenytoin",
+    "heading": "Anticonvulsant",
+    "anchor": "Clinical Guideline (Phenytoin)",
+    "url": "https://www.austin.org.au/Assets/Files/Phenytoin%20Guideline_Oct%202024.pdf",
+    "group": "A-B",
+    "page_id": 1780,
+    "also_in_groups": [
+      "P-R"
+    ]
+  },
+  {
+    "title": "Anticonvulsant — Sodium Valproate",
+    "heading": "Anticonvulsant",
+    "anchor": "Clinical Guideline (Sodium Valproate)",
+    "url": "https://www.austin.org.au/Assets/Files/Valproate%20V7_4_2025.pdf",
+    "group": "A-B",
+    "page_id": 1780,
+    "also_in_groups": [
+      "V-Z"
+    ]
+  },
+  {
+    "title": "Antidepressant — Cinical Guideline (Selective Serotonin Reuptake Inhibitors/SSRIs)",
+    "heading": "Antidepressant",
+    "anchor": "Cinical Guideline (Selective Serotonin Reuptake Inhibitors/SSRIs)",
+    "url": "https://www.austin.org.au/Assets/Files/SSRI%20guideline_March2023[1].pdf",
+    "group": "A-B",
+    "page_id": 1780,
+    "also_in_groups": [
+      "C-F",
+      "S-U"
+    ]
+  },
+  {
+    "title": "Antidepressant — Desvenlafaxine",
+    "heading": "Antidepressant",
+    "anchor": "Clinical Guideline (Desvenlafaxine)",
+    "url": "https://www.austin.org.au/Assets/Files/Venlafaxine%20and%20Desvenlafaxine_Feb2023[1].pdf",
+    "group": "A-B",
+    "page_id": 1780,
+    "also_in_groups": [
+      "C-F",
+      "V-Z"
+    ]
+  },
+  {
+    "title": "Antidepressant — Lithium: Acute Ingestion",
+    "heading": "Antidepressant",
+    "anchor": "Clinical Guideline (Lithium: Acute Ingestion)",
+    "url": "https://www.austin.org.au/Assets/Files/Acute%20Lithium%20guideline_Nov2022.pdf",
+    "group": "A-B",
+    "page_id": 1780,
+    "also_in_groups": [
+      "J-L"
+    ]
+  },
+  {
+    "title": "Antidepressant — Lithium: Chronic Poisoning",
+    "heading": "Antidepressant",
+    "anchor": "Clinical Guideline (Lithium: Chronic Poisoning)",
+    "url": "https://www.austin.org.au/Assets/Files/Lithium%20guideline%20(chronic)_May%202024.pdf",
+    "group": "A-B",
+    "page_id": 1780,
+    "also_in_groups": [
+      "J-L"
+    ]
+  },
+  {
+    "title": "Antidepressant — Monoamine Oxidase Inhibitors",
+    "heading": "Antidepressant",
+    "anchor": "Clinical Guideline (Monoamine Oxidase Inhibitors)",
+    "url": "https://www.austin.org.au/Assets/Files/MAOI_jan2025.pdf",
+    "group": "A-B",
+    "page_id": 1780,
+    "also_in_groups": [
+      "M-O",
+      "S-U"
+    ]
+  },
+  {
+    "title": "Antidepressant — Tricyclic/TCAs",
+    "heading": "Antidepressant",
+    "anchor": "Clinical Guideline (Tricyclic/TCAs)",
+    "url": "https://www.austin.org.au/Assets/Files/Tricyclic%20Guideline_V5_8_2025.pdf",
+    "group": "A-B",
+    "page_id": 1780,
+    "also_in_groups": [
+      "S-U"
+    ]
+  },
+  {
+    "title": "Antihistamine",
+    "heading": "Antihistamine",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Antihistamine%20Guideline_Nov2023.pdf",
+    "group": "A-B",
+    "page_id": 1780,
+    "also_in_groups": [
+      "C-F",
+      "J-L",
+      "P-R"
+    ]
+  },
+  {
+    "title": "Antipsychotic (Atypical) — Clozapine",
+    "heading": "Antipsychotic (Atypical)",
+    "anchor": "Clinical Guideline (Clozapine)",
+    "url": "https://www.austin.org.au/Assets/Files/Clozapine%20Guideline_AUG%202024.pdf",
+    "group": "A-B",
+    "page_id": 1780,
+    "also_in_groups": [
+      "C-F"
+    ]
+  },
+  {
+    "title": "Antipsychotic (Atypical) — Olanzapine",
+    "heading": "Antipsychotic (Atypical)",
+    "anchor": "Clinical Guideline (Olanzapine)",
+    "url": "https://www.austin.org.au/Assets/Files/Olanzapine%20Guideline.July%202023[1].pdf",
+    "group": "A-B",
+    "page_id": 1780,
+    "also_in_groups": [
+      "M-O"
+    ]
+  },
+  {
+    "title": "Antipsychotic (Atypical) — Paliperidone",
+    "heading": "Antipsychotic (Atypical)",
+    "anchor": "Clinical Guideline (Paliperidone)",
+    "url": "https://www.austin.org.au/Assets/Files/Risperidone%20and%20Paliperidone%20guideline_March2023[1].pdf",
+    "group": "A-B",
+    "page_id": 1780,
+    "also_in_groups": [
+      "P-R"
+    ]
+  },
+  {
+    "title": "Antipsychotic (Atypical) — Quetiapine",
+    "heading": "Antipsychotic (Atypical)",
+    "anchor": "Clinical Guideline (Quetiapine)",
+    "url": "https://www.austin.org.au/Assets/Files/Quetiapine%20Guideline_Feb%202023[1].pdf",
+    "group": "A-B",
+    "page_id": 1780,
+    "also_in_groups": [
+      "P-R"
+    ]
+  },
+  {
+    "title": "Antipsychotic (Typical) — Butyrophenones: Droperidol, Haloperidol",
+    "heading": "Antipsychotic (Typical)",
+    "anchor": "Clinical Guideline (Butyrophenones: Droperidol, Haloperidol)",
+    "url": "https://www.austin.org.au/Assets/Files/Butyrophenones%20Guideline_Nov%202023[1].pdf",
+    "group": "A-B",
+    "page_id": 1780,
+    "also_in_groups": [
+      "C-F",
+      "G-I"
+    ]
+  },
+  {
+    "title": "Antipsychotic (Typical) — Phenothiazines: Chlorpromazine, Periciazine, Prochlorperazine",
+    "heading": "Antipsychotic (Typical)",
+    "anchor": "Clinical Guideline (Phenothiazines: Chlorpromazine, Periciazine, Prochlorperazine)",
+    "url": "https://www.austin.org.au/Assets/Files/Phenothiazines%20Guideline_Nov%202023[1].pdf",
+    "group": "A-B",
+    "page_id": 1780,
+    "also_in_groups": [
+      "C-F",
+      "P-R"
+    ]
+  },
+  {
+    "title": "Antivenom (AV) — Brown Snake Antivenom",
+    "heading": "Antivenom (AV)",
+    "anchor": "Clinical Guideline (Brown Snake Antivenom)",
+    "url": "https://www.austin.org.au/Assets/Files/Brown%20Snake%20AV_V3_2_2025.pdf",
+    "group": "Antidotes / Antivenoms",
+    "page_id": 1816,
+    "also_in_groups": []
+  },
+  {
+    "title": "Antivenom (AV) — Polyvalent Antivenom",
+    "heading": "Antivenom (AV)",
+    "anchor": "Clinical Guideline (Polyvalent Antivenom)",
+    "url": "https://www.austin.org.au/Assets/Files/Polyvalent%20AV_V3_8_2025.pdf",
+    "group": "Antidotes / Antivenoms",
+    "page_id": 1816,
+    "also_in_groups": []
+  },
+  {
+    "title": "Antivenom (AV) — Redback Spider Antivenom",
+    "heading": "Antivenom (AV)",
+    "anchor": "Clinical Guideline (Redback Spider Antivenom)",
+    "url": "https://www.austin.org.au/Assets/Files/Redback%20Spider%20AV%20guideline_April%202024.pdf",
+    "group": "Antidotes / Antivenoms",
+    "page_id": 1816,
+    "also_in_groups": []
+  },
+  {
+    "title": "Antivenom (AV) — Tiger Snake Antivenom",
+    "heading": "Antivenom (AV)",
+    "anchor": "Clinical Guideline (Tiger Snake Antivenom)",
+    "url": "https://www.austin.org.au/Assets/Files/Tiger%20Snake%20AV_V3_2_2025.pdf",
+    "group": "Antidotes / Antivenoms",
+    "page_id": 1816,
+    "also_in_groups": []
+  },
+  {
+    "title": "Arsenic — Acute Exposure",
+    "heading": "Arsenic",
+    "anchor": "Clinical Guideline (Acute Exposure)",
+    "url": "https://www.austin.org.au/Assets/Files/Arsenic_V4_3_2025.pdf",
+    "group": "A-B",
+    "page_id": 1780,
+    "also_in_groups": []
+  },
+  {
+    "title": "Arsenic — Chronic Exposure",
+    "heading": "Arsenic",
+    "anchor": "Clinical Guideline (Chronic Exposure)",
+    "url": "https://www.austin.org.au/Assets/Files/ArsenicChronic_V1_3_2025.pdf",
+    "group": "A-B",
+    "page_id": 1780,
+    "also_in_groups": []
+  },
+  {
+    "title": "Aspirin",
+    "heading": "Aspirin",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Salicylate%20Guideline_V4_8_2025.pdf",
+    "group": "A-B",
+    "page_id": 1780,
+    "also_in_groups": [
+      "S-U"
+    ]
+  },
+  {
+    "title": "Atropine",
+    "heading": "Atropine",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Atropine%20Guideline%20.%20Nov%202024.pdf",
+    "group": "Antidotes / Antivenoms",
+    "page_id": 1816,
+    "also_in_groups": []
+  },
+  {
+    "title": "Baclofen",
+    "heading": "Baclofen",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Baclofen_V4_5_2026.pdf",
+    "group": "A-B",
+    "page_id": 1780,
+    "also_in_groups": []
+  },
+  {
+    "title": "Benzodiazepine",
+    "heading": "Benzodiazepine",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Benzodiazepines_Nov2022.pdf",
+    "group": "A-B",
+    "page_id": 1780,
+    "also_in_groups": [
+      "V-Z"
+    ]
+  },
+  {
+    "title": "Benztropine",
+    "heading": "Benztropine",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Benztropine%20Guideline%20_AUG%202024.pdf",
+    "group": "A-B",
+    "page_id": 1780,
+    "also_in_groups": []
+  },
+  {
+    "title": "Beta Blocker",
+    "heading": "Beta Blocker",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Beta%20Blockers_V4_2_2026.pdf",
+    "group": "A-B",
+    "page_id": 1780,
+    "also_in_groups": [
+      "P-R"
+    ]
+  },
+  {
+    "title": "Bupivacaine",
+    "heading": "Bupivacaine",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Local%20Anaesthetics.July%202023[1].pdf",
+    "group": "A-B",
+    "page_id": 1780,
+    "also_in_groups": [
+      "J-L",
+      "P-R"
+    ]
+  },
+  {
+    "title": "Buprenorphine",
+    "heading": "Buprenorphine",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Buprenorphine%20Guideline_May2023.pdf",
+    "group": "A-B",
+    "page_id": 1780,
+    "also_in_groups": []
+  },
+  {
+    "title": "Button Battery",
+    "heading": "Button Battery",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Button%20Battery%20Guideline.March2024.pdf",
+    "group": "A-B",
+    "page_id": 1780,
+    "also_in_groups": []
+  },
+  {
+    "title": "Caffeine",
+    "heading": "Caffeine",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Caffeine_Sept%202024.pdf",
+    "group": "C-F",
+    "page_id": 1791,
+    "also_in_groups": []
+  },
+  {
+    "title": "Calcium",
+    "heading": "Calcium",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Calcium%20Guideline_%20V5_9_2025.pdf",
+    "group": "Antidotes / Antivenoms",
+    "page_id": 1816,
+    "also_in_groups": []
+  },
+  {
+    "title": "Calcium Channel Blocker — Amlodipine, Nifedipine, Felodipine, Lercanidipine, Nimodipine",
+    "heading": "Calcium Channel Blocker",
+    "anchor": "Clinical Guideline (Amlodipine, Nifedipine, Felodipine, Lercanidipine, Nimodipine)",
+    "url": "https://www.austin.org.au/Assets/Files/Calcium%20Channel%20Blocker.Dihydropyridine_V4_6_2025.pdf",
+    "group": "C-F",
+    "page_id": 1791,
+    "also_in_groups": []
+  },
+  {
+    "title": "Calcium Channel Blocker — Verapamil, Diltiazem",
+    "heading": "Calcium Channel Blocker",
+    "anchor": "Clinical Guideline (Verapamil, Diltiazem)",
+    "url": "https://www.austin.org.au/Assets/Files/Calcium%20Channel%20Blocker.Non-dihydropyridine_V4_6-2025.pdf",
+    "group": "C-F",
+    "page_id": 1791,
+    "also_in_groups": []
+  },
+  {
+    "title": "Cannabis",
+    "heading": "Cannabis",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Cannabis%20guideline_Nov2022.pdf",
+    "group": "C-F",
+    "page_id": 1791,
+    "also_in_groups": []
+  },
+  {
+    "title": "Cannabis — Cannabinoid Hyperemesis Syndrome",
+    "heading": "Cannabis",
+    "anchor": "Clinical Guideline (Cannabinoid Hyperemesis Syndrome)",
+    "url": "https://www.austin.org.au/Assets/Files/CHS_V2_8_2025.pdf",
+    "group": "C-F",
+    "page_id": 1791,
+    "also_in_groups": []
+  },
+  {
+    "title": "Cannabis — Synthetic Cannabinoid Receptor Agonists - SCRAs",
+    "heading": "Cannabis",
+    "anchor": "Clinical Guideline (Synthetic Cannabinoid Receptor Agonists - SCRAs)",
+    "url": "https://www.austin.org.au/Assets/Files/SCRAs%20Guideline_April%202024.pdf",
+    "group": "C-F",
+    "page_id": 1791,
+    "also_in_groups": []
+  },
+  {
+    "title": "Carbon monoxide",
+    "heading": "Carbon monoxide",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Carbon%20Monoxide%20Guideline_V5_9_2025.pdf",
+    "group": "C-F",
+    "page_id": 1791,
+    "also_in_groups": []
+  },
+  {
+    "title": "Carnitine",
+    "heading": "Carnitine",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Carnitine%20Guideline_V4_12_2025.pdf",
+    "group": "Antidotes / Antivenoms",
+    "page_id": 1816,
+    "also_in_groups": []
+  },
+  {
+    "title": "Caustic and Corrosive",
+    "heading": "Caustic and Corrosive",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Caustic%20and%20Corrosive_Dec2022.pdf",
+    "group": "C-F",
+    "page_id": 1791,
+    "also_in_groups": []
+  },
+  {
+    "title": "Chloral Hydrate",
+    "heading": "Chloral Hydrate",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Chlorylhydrate_V3_8_2025.pdf",
+    "group": "C-F",
+    "page_id": 1791,
+    "also_in_groups": []
+  },
+  {
+    "title": "Chloroquine",
+    "heading": "Chloroquine",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Chloroquine%20and%20Hydroxychloroquine%20Guideline.%20July%202023[1].pdf",
+    "group": "C-F",
+    "page_id": 1791,
+    "also_in_groups": [
+      "G-I"
+    ]
+  },
+  {
+    "title": "Chroming",
+    "heading": "Chroming",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Inhalants%20Volatile%20substance%20abuse%20'chroming'%20_V2_3_2025.pdf",
+    "group": "C-F",
+    "page_id": 1791,
+    "also_in_groups": [
+      "G-I",
+      "V-Z"
+    ]
+  },
+  {
+    "title": "Clonidine",
+    "heading": "Clonidine",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Clonidine%20and%20Guanfacine%20guideline_V5_5_2026.pdf",
+    "group": "C-F",
+    "page_id": 1791,
+    "also_in_groups": [
+      "G-I"
+    ]
+  },
+  {
+    "title": "Cocaine",
+    "heading": "Cocaine",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Cocaine%20final_Oct%202024.pdf",
+    "group": "C-F",
+    "page_id": 1791,
+    "also_in_groups": []
+  },
+  {
+    "title": "Colchicine",
+    "heading": "Colchicine",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Colchicine%20guideline_Oct%202024.pdf",
+    "group": "C-F",
+    "page_id": 1791,
+    "also_in_groups": []
+  },
+  {
+    "title": "Cyanide",
+    "heading": "Cyanide",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Cyanide_V4_2_2025.pdf",
+    "group": "C-F",
+    "page_id": 1791,
+    "also_in_groups": []
+  },
+  {
+    "title": "Dapagliflozin",
+    "heading": "Dapagliflozin",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/SGLT2%20guideline_V1_5_2026.pdf",
+    "group": "C-F",
+    "page_id": 1791,
+    "also_in_groups": []
+  },
+  {
+    "title": "Dapsone",
+    "heading": "Dapsone",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Dapsone%20Guideline_V4_1_2026.pdf",
+    "group": "C-F",
+    "page_id": 1791,
+    "also_in_groups": []
+  },
+  {
+    "title": "Desferrioxamine",
+    "heading": "Desferrioxamine",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Desferrioxamine_July%202024.pdf",
+    "group": "Antidotes / Antivenoms",
+    "page_id": 1816,
+    "also_in_groups": []
+  },
+  {
+    "title": "Dexamphetamine",
+    "heading": "Dexamphetamine",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Prescribed%20Psychostimulants_V2_3_2025.pdf",
+    "group": "C-F",
+    "page_id": 1791,
+    "also_in_groups": [
+      "J-L",
+      "M-O"
+    ]
+  },
+  {
+    "title": "Dextromethorphan",
+    "heading": "Dextromethorphan",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Dextromethorphan%20Guideline_Dec2022.pdf",
+    "group": "C-F",
+    "page_id": 1791,
+    "also_in_groups": []
+  },
+  {
+    "title": "Digoxin Immune Fab",
+    "heading": "Digoxin Immune Fab",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Digoxin%20Immune%20Fab%20Guideline_V4_12_2025.pdf",
+    "group": "Antidotes / Antivenoms",
+    "page_id": 1816,
+    "also_in_groups": []
+  },
+  {
+    "title": "Digoxin — Acute",
+    "heading": "Digoxin",
+    "anchor": "Clinical Guideline (Acute)",
+    "url": "https://www.austin.org.au/Assets/Files/Digoxin%20(Acute)_V5_12_2025.pdf",
+    "group": "C-F",
+    "page_id": 1791,
+    "also_in_groups": []
+  },
+  {
+    "title": "Digoxin — Chronic",
+    "heading": "Digoxin",
+    "anchor": "Clinical Guideline (Chronic)",
+    "url": "https://www.austin.org.au/Assets/Files/Digoxin%20(Chronic)_V4_12_2025.pdf",
+    "group": "C-F",
+    "page_id": 1791,
+    "also_in_groups": []
+  },
+  {
+    "title": "Dinitrophenol (DNP, 2,4-Dinitrophenol)",
+    "heading": "Dinitrophenol (DNP, 2,4-Dinitrophenol)",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/DNP_Sept%202024.pdf",
+    "group": "C-F",
+    "page_id": 1791,
+    "also_in_groups": []
+  },
+  {
+    "title": "DMPS (dimercaptopropane sulfonate)",
+    "heading": "DMPS (dimercaptopropane sulfonate)",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/DMPS%20Guideline%20_Nov2022.pdf",
+    "group": "Antidotes / Antivenoms",
+    "page_id": 1816,
+    "also_in_groups": []
+  },
+  {
+    "title": "DMSA (Succimer / 2,3-Dimercaptosuccinic Acid)",
+    "heading": "DMSA (Succimer / 2,3-Dimercaptosuccinic Acid)",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Succimer%20Guideline_Nov2022[1].pdf",
+    "group": "Antidotes / Antivenoms",
+    "page_id": 1816,
+    "also_in_groups": []
+  },
+  {
+    "title": "Essential Oils",
+    "heading": "Essential Oils",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Essential%20oils_V3_4_2025.pdf",
+    "group": "C-F",
+    "page_id": 1791,
+    "also_in_groups": []
+  },
+  {
+    "title": "Ethanol",
+    "heading": "Ethanol",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Ethanol%20antidote%20Guideline_Feb2023[1].pdf",
+    "group": "Antidotes / Antivenoms",
+    "page_id": 1816,
+    "also_in_groups": []
+  },
+  {
+    "title": "Ethylene Glycol",
+    "heading": "Ethylene Glycol",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Ethylene%20Glycol%20Guideline_April%202023.pdf",
+    "group": "C-F",
+    "page_id": 1791,
+    "also_in_groups": []
+  },
+  {
+    "title": "Flecainide",
+    "heading": "Flecainide",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Flecainide%20Guideline_V3_3_2025.pdf",
+    "group": "C-F",
+    "page_id": 1791,
+    "also_in_groups": []
+  },
+  {
+    "title": "Flumazenil",
+    "heading": "Flumazenil",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Flumazenil_July%202024.pdf",
+    "group": "Antidotes / Antivenoms",
+    "page_id": 1816,
+    "also_in_groups": []
+  },
+  {
+    "title": "Folinic Acid (Calcium Folinate)",
+    "heading": "Folinic Acid (Calcium Folinate)",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Folinic%20Acid_V4_8_2025.pdf",
+    "group": "Antidotes / Antivenoms",
+    "page_id": 1816,
+    "also_in_groups": []
+  },
+  {
+    "title": "Fomepizole",
+    "heading": "Fomepizole",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Fomepizole%20Guideline_V3_4_2026.pdf",
+    "group": "Antidotes / Antivenoms",
+    "page_id": 1816,
+    "also_in_groups": []
+  },
+  {
+    "title": "Gabapentin",
+    "heading": "Gabapentin",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Pregabalin%20and%20Gabapentin%20Guideline_May%202024.pdf",
+    "group": "G-I",
+    "page_id": 1792,
+    "also_in_groups": [
+      "P-R"
+    ]
+  },
+  {
+    "title": "GHB",
+    "heading": "GHB",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/GHB%20Guideline_Feb%202023[1].pdf",
+    "group": "G-I",
+    "page_id": 1792,
+    "also_in_groups": []
+  },
+  {
+    "title": "GHB — GHB Withdrawal",
+    "heading": "GHB",
+    "anchor": "Clinical Guideline (GHB Withdrawal)",
+    "url": "https://www.austin.org.au/Assets/Files/GHB%20Withdrawal.July%202023[1].pdf",
+    "group": "G-I",
+    "page_id": 1792,
+    "also_in_groups": []
+  },
+  {
+    "title": "Glyphosate",
+    "heading": "Glyphosate",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Glyphosate%20Guideline_Aug2023[1].pdf",
+    "group": "G-I",
+    "page_id": 1792,
+    "also_in_groups": []
+  },
+  {
+    "title": "High-dose Insulin Euglycaemia Therapy (HIET)",
+    "heading": "High-dose Insulin Euglycaemia Therapy (HIET)",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/HIET_V4_2_2025.pdf",
+    "group": "Antidotes / Antivenoms",
+    "page_id": 1816,
+    "also_in_groups": []
+  },
+  {
+    "title": "Hydrocarbons — Ingestion",
+    "heading": "Hydrocarbons",
+    "anchor": "Clinical Guideline (Ingestion)",
+    "url": "https://www.austin.org.au/Assets/Files/Hydrocarbon%20Ingestion_V3_3_2025.pdf",
+    "group": "G-I",
+    "page_id": 1792,
+    "also_in_groups": []
+  },
+  {
+    "title": "Hydrofluoric Acid",
+    "heading": "Hydrofluoric Acid",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/HF_V3_2_2025.pdf",
+    "group": "G-I",
+    "page_id": 1792,
+    "also_in_groups": []
+  },
+  {
+    "title": "Hydrogen Peroxide",
+    "heading": "Hydrogen Peroxide",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Hydrogen%20Peroxide%20Guideline_Feb%202023[1].pdf",
+    "group": "G-I",
+    "page_id": 1792,
+    "also_in_groups": []
+  },
+  {
+    "title": "Hydroxocobalamin",
+    "heading": "Hydroxocobalamin",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Hydroxocobalamin_jan2025.pdf",
+    "group": "Antidotes / Antivenoms",
+    "page_id": 1816,
+    "also_in_groups": []
+  },
+  {
+    "title": "Ibuprofen",
+    "heading": "Ibuprofen",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/NSAIDs_V4_5_2026.pdf",
+    "group": "G-I",
+    "page_id": 1792,
+    "also_in_groups": [
+      "M-O"
+    ]
+  },
+  {
+    "title": "Insulin",
+    "heading": "Insulin",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Insulin%20Guideline_Nov%202023[1].pdf",
+    "group": "G-I",
+    "page_id": 1792,
+    "also_in_groups": []
+  },
+  {
+    "title": "Iron",
+    "heading": "Iron",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Iron%20guideline_V4_2_2026.pdf",
+    "group": "G-I",
+    "page_id": 1792,
+    "also_in_groups": []
+  },
+  {
+    "title": "Isoniazid",
+    "heading": "Isoniazid",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Isoniazid_V2_4_2025.pdf",
+    "group": "G-I",
+    "page_id": 1792,
+    "also_in_groups": []
+  },
+  {
+    "title": "Isopropyl alcohol (Isopropanol)",
+    "heading": "Isopropyl alcohol (Isopropanol)",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Isopropyl%20alcohol_V4_8_2025.pdf",
+    "group": "G-I",
+    "page_id": 1792,
+    "also_in_groups": []
+  },
+  {
+    "title": "Ivabradine",
+    "heading": "Ivabradine",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Ivabradine_V2_2_2026.pdf",
+    "group": "G-I",
+    "page_id": 1792,
+    "also_in_groups": []
+  },
+  {
+    "title": "Lead",
+    "heading": "Lead",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Lead%20Guideline_V3_8_2025.pdf",
+    "group": "J-L",
+    "page_id": 1793,
+    "also_in_groups": []
+  },
+  {
+    "title": "Lead — Foreign Body Ingestion",
+    "heading": "Lead",
+    "anchor": "Clinical Guideline (Foreign Body Ingestion)",
+    "url": "https://www.austin.org.au/Assets/Files/Lead%20Foreign%20Body.August%202023[1].pdf",
+    "group": "J-L",
+    "page_id": 1793,
+    "also_in_groups": []
+  },
+  {
+    "title": "Lipid Emulsion Therapy (ILE)",
+    "heading": "Lipid Emulsion Therapy (ILE)",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Intralipid%20Guideline.July%202023[1].pdf",
+    "group": "Antidotes / Antivenoms",
+    "page_id": 1816,
+    "also_in_groups": []
+  },
+  {
+    "title": "Mercury — Elemental",
+    "heading": "Mercury",
+    "anchor": "Clinical Guideline (Elemental)",
+    "url": "https://www.austin.org.au/Assets/Files/Mercury%20Elemental_FINAL%202023[1].pdf",
+    "group": "M-O",
+    "page_id": 1794,
+    "also_in_groups": []
+  },
+  {
+    "title": "Mercury — Inorganic",
+    "heading": "Mercury",
+    "anchor": "Clinical Guideline (Inorganic)",
+    "url": "https://www.austin.org.au/Assets/Files/Mercury%20Inorganic%20FINAL%202023.pdf",
+    "group": "M-O",
+    "page_id": 1794,
+    "also_in_groups": []
+  },
+  {
+    "title": "Mercury — Mercury Investigations",
+    "heading": "Mercury",
+    "anchor": "Mercury Investigations",
+    "url": "https://www.austin.org.au/Assets/Files/Mercury%20Investigations_FINAL%202023[1].pdf",
+    "group": "M-O",
+    "page_id": 1794,
+    "also_in_groups": []
+  },
+  {
+    "title": "Mercury — Organic",
+    "heading": "Mercury",
+    "anchor": "Clinical Guideline (Organic)",
+    "url": "https://www.austin.org.au/Assets/Files/Mercury%20Organic%20FINAL%202023.pdf",
+    "group": "M-O",
+    "page_id": 1794,
+    "also_in_groups": []
+  },
+  {
+    "title": "Metformin",
+    "heading": "Metformin",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Metformin%20Guideline_July%202024.pdf",
+    "group": "M-O",
+    "page_id": 1794,
+    "also_in_groups": []
+  },
+  {
+    "title": "Methaemoglobinaemia",
+    "heading": "Methaemoglobinaemia",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/MetHb%20Guideline_V4_1_2026.pdf",
+    "group": "M-O",
+    "page_id": 1794,
+    "also_in_groups": []
+  },
+  {
+    "title": "Methanol",
+    "heading": "Methanol",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Methanol%20Guideline_Final%20April%202023[1].pdf",
+    "group": "M-O",
+    "page_id": 1794,
+    "also_in_groups": []
+  },
+  {
+    "title": "Methotrexate",
+    "heading": "Methotrexate",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Methotrexate_V4_8_2025.pdf",
+    "group": "M-O",
+    "page_id": 1794,
+    "also_in_groups": []
+  },
+  {
+    "title": "Methylene Blue",
+    "heading": "Methylene Blue",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Methylene%20Blue_V5_2_2026.pdf",
+    "group": "Antidotes / Antivenoms",
+    "page_id": 1816,
+    "also_in_groups": []
+  },
+  {
+    "title": "N-acetylcysteine (NAC)",
+    "heading": "N-acetylcysteine (NAC)",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/NAC%20Guideline_General.July%202023docx[1].pdf",
+    "group": "Antidotes / Antivenoms",
+    "page_id": 1816,
+    "also_in_groups": []
+  },
+  {
+    "title": "Naloxone",
+    "heading": "Naloxone",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Naloxone_V4_11_2025.pdf",
+    "group": "Antidotes / Antivenoms",
+    "page_id": 1816,
+    "also_in_groups": []
+  },
+  {
+    "title": "Neuroleptic Malignant Syndrome",
+    "heading": "Neuroleptic Malignant Syndrome",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/NMS_V3_8_2025.pdf",
+    "group": "M-O",
+    "page_id": 1794,
+    "also_in_groups": []
+  },
+  {
+    "title": "Nicotine",
+    "heading": "Nicotine",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Nicotine_Sept%202024.pdf",
+    "group": "M-O",
+    "page_id": 1794,
+    "also_in_groups": []
+  },
+  {
+    "title": "Nitrous Oxide",
+    "heading": "Nitrous Oxide",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Nitrous%20Oxide%20Guideline%20_%2024%20April%202024.pdf",
+    "group": "M-O",
+    "page_id": 1794,
+    "also_in_groups": []
+  },
+  {
+    "title": "Octreotide",
+    "heading": "Octreotide",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Octreotide_July%202024.pdf",
+    "group": "Antidotes / Antivenoms",
+    "page_id": 1816,
+    "also_in_groups": []
+  },
+  {
+    "title": "Opioids",
+    "heading": "Opioids",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Opioids%20(not%20including%20Tramadol%20&amp;%20Tapendatol)%20Guideline.Aug%202023[1].pdf",
+    "group": "M-O",
+    "page_id": 1794,
+    "also_in_groups": []
+  },
+  {
+    "title": "Organophosphorus Agents (Organophosphates)",
+    "heading": "Organophosphorus Agents (Organophosphates)",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Organophoshate%20Guideline.May2023[1].pdf",
+    "group": "M-O",
+    "page_id": 1794,
+    "also_in_groups": []
+  },
+  {
+    "title": "Orphenadrine",
+    "heading": "Orphenadrine",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Orphenadrine%20Guideline_Nov2022FINAL[1].pdf",
+    "group": "M-O",
+    "page_id": 1794,
+    "also_in_groups": []
+  },
+  {
+    "title": "Paracetamol — Acute Single Ingestion of Immediate-Release Preparation",
+    "heading": "Paracetamol",
+    "anchor": "Clinical Guideline (Acute Single Ingestion of Immediate-Release Preparation)",
+    "url": "https://www.austin.org.au/Assets/Files/Paracetamol%20Acute%20Single%20Ingestion_V6_5_2026.pdf",
+    "group": "P-R",
+    "page_id": 1795,
+    "also_in_groups": []
+  },
+  {
+    "title": "Paracetamol — Acute Single Ingestion of Modified-Release Preparation",
+    "heading": "Paracetamol",
+    "anchor": "Clinical Guideline (Acute Single Ingestion of Modified-Release Preparation)",
+    "url": "https://www.austin.org.au/Assets/Files/Paracetamol%20MR_Oct2022[1].pdf",
+    "group": "P-R",
+    "page_id": 1795,
+    "also_in_groups": []
+  },
+  {
+    "title": "Paracetamol — Extended N-acetylcysteine Treatment for Paracetamol Poisoning",
+    "heading": "Paracetamol",
+    "anchor": "Extended N-acetylcysteine Treatment for Paracetamol Poisoning",
+    "url": "https://www.austin.org.au/Assets/Files/Paracetamol%20Extended%20NAC%20Treatment_V2_5_2026.pdf",
+    "group": "P-R",
+    "page_id": 1795,
+    "also_in_groups": [
+      "Antidotes / Antivenoms"
+    ]
+  },
+  {
+    "title": "Paracetamol — Multiple / Staggered Ingestions of Immediate-Release Preparation",
+    "heading": "Paracetamol",
+    "anchor": "Clinical Guideline (Multiple / Staggered Ingestions of Immediate-Release Preparation)",
+    "url": "https://www.austin.org.au/Assets/Files/Paracetamol_staggered_V5_5_2026.pdf",
+    "group": "P-R",
+    "page_id": 1795,
+    "also_in_groups": []
+  },
+  {
+    "title": "Paracetamol — N-acetylcysteine dosing (ADULT)",
+    "heading": "Paracetamol",
+    "anchor": "N-acetylcysteine dosing (ADULT)",
+    "url": "https://www.austin.org.au/Assets/Files/NAC%20dosing%20ADULT%20chart_April%202024.pdf",
+    "group": "P-R",
+    "page_id": 1795,
+    "also_in_groups": [
+      "Antidotes / Antivenoms"
+    ]
+  },
+  {
+    "title": "Paracetamol — N-acetylcysteine dosing (PAEDIATRIC)",
+    "heading": "Paracetamol",
+    "anchor": "N-acetylcysteine dosing (PAEDIATRIC)",
+    "url": "https://www.austin.org.au/Assets/Files/NAC%20dosing%20PAED%20chart_April%202024.pdf",
+    "group": "P-R",
+    "page_id": 1795,
+    "also_in_groups": [
+      "Antidotes / Antivenoms"
+    ]
+  },
+  {
+    "title": "Paracetamol — Repeated Supratherapeutic Ingestion",
+    "heading": "Paracetamol",
+    "anchor": "Clinical Guideline (Repeated Supratherapeutic Ingestion)",
+    "url": "https://www.austin.org.au/Assets/Files/Paracetamol%20repeated%20supratherapeutic_V5_5_2026.pdf",
+    "group": "P-R",
+    "page_id": 1795,
+    "also_in_groups": []
+  },
+  {
+    "title": "Paraquat",
+    "heading": "Paraquat",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Paraquat%20guideline.Oct%202023[1].pdf",
+    "group": "P-R",
+    "page_id": 1795,
+    "also_in_groups": []
+  },
+  {
+    "title": "Paraquat — Dithionite Urine Test (DUT)",
+    "heading": "Paraquat",
+    "anchor": "Dithionite Urine Test (DUT)",
+    "url": "https://www.austin.org.au/Assets/Files/Paraquat%20Dithionite%20Urine%20Test%20guideline.%20Nov%202023[1].pdf",
+    "group": "P-R",
+    "page_id": 1795,
+    "also_in_groups": []
+  },
+  {
+    "title": "Phenobarbital",
+    "heading": "Phenobarbital",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Phenobarbital%20(Phenobarbitone)_July%202024.pdf",
+    "group": "P-R",
+    "page_id": 1795,
+    "also_in_groups": []
+  },
+  {
+    "title": "Physostigmine",
+    "heading": "Physostigmine",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Physostigmine%20FINAL%202023[1].pdf",
+    "group": "Antidotes / Antivenoms",
+    "page_id": 1816,
+    "also_in_groups": []
+  },
+  {
+    "title": "Potassium",
+    "heading": "Potassium",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Potassium%20Guideline_V3_9_2025.pdf",
+    "group": "P-R",
+    "page_id": 1795,
+    "also_in_groups": []
+  },
+  {
+    "title": "Pralidoxime",
+    "heading": "Pralidoxime",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Pralidoxime%20V3_5_2025.pdf",
+    "group": "Antidotes / Antivenoms",
+    "page_id": 1816,
+    "also_in_groups": []
+  },
+  {
+    "title": "Pyridoxine",
+    "heading": "Pyridoxine",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Pyridoxine_%20V2_4_2025.pdf",
+    "group": "Antidotes / Antivenoms",
+    "page_id": 1816,
+    "also_in_groups": []
+  },
+  {
+    "title": "QRS prolongation",
+    "heading": "QRS prolongation",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/QRS%20prolongation_Nov2022[1].pdf",
+    "group": "P-R",
+    "page_id": 1795,
+    "also_in_groups": []
+  },
+  {
+    "title": "QT prolongation",
+    "heading": "QT prolongation",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/QT%20interval%20prolongation%20and%20TdP_March2023[1].pdf",
+    "group": "P-R",
+    "page_id": 1795,
+    "also_in_groups": [
+      "S-U"
+    ]
+  },
+  {
+    "title": "QT prolongation — QT Nomogram",
+    "heading": "QT prolongation",
+    "anchor": "QT Nomogram",
+    "url": "https://www.austin.org.au/Assets/Files/Qt%20Interval%20Nomogram.pdf",
+    "group": "P-R",
+    "page_id": 1795,
+    "also_in_groups": []
+  },
+  {
+    "title": "Quinine",
+    "heading": "Quinine",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Quinine_July%202024.pdf",
+    "group": "P-R",
+    "page_id": 1795,
+    "also_in_groups": []
+  },
+  {
+    "title": "Redback Spider",
+    "heading": "Redback Spider",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/RBS%20Guideline_April%202024.pdf",
+    "group": "P-R",
+    "page_id": 1795,
+    "also_in_groups": []
+  },
+  {
+    "title": "Serotonin Toxicity",
+    "heading": "Serotonin Toxicity",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Serotonin%20Toxicity%20Guidelines.March2024.pdf",
+    "group": "S-U",
+    "page_id": 1796,
+    "also_in_groups": []
+  },
+  {
+    "title": "Serum Alkalinisation",
+    "heading": "Serum Alkalinisation",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Serum%20alkalinisation_V1_8_2025.pdf",
+    "group": "S-U",
+    "page_id": 1796,
+    "also_in_groups": [
+      "Antidotes / Antivenoms"
+    ]
+  },
+  {
+    "title": "Silibinin",
+    "heading": "Silibinin",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Silibinin%20V4_11_2025.pdf",
+    "group": "Antidotes / Antivenoms",
+    "page_id": 1816,
+    "also_in_groups": []
+  },
+  {
+    "title": "Snakebite Envenomation Pathway — Clinical Pathway for Emergency Department",
+    "heading": "Snakebite Envenomation Pathway",
+    "anchor": "Clinical Pathway for Emergency Department",
+    "url": "https://www.austin.org.au/Assets/Files/emergency_department_snake_bite_envenomation_pathway_FEB2026.pdf",
+    "group": "Statewide Snakebite Guidelines",
+    "page_id": 4712,
+    "also_in_groups": []
+  },
+  {
+    "title": "Snakebite — Management of Snakebite Envenomation in Victoria",
+    "heading": "Snakebite",
+    "anchor": "Management of Snakebite Envenomation in Victoria",
+    "url": "https://www.austin.org.au/Assets/Files/Snake%20Bite%20in%20Victoria%20Guideline%20defined_V5_1_2026.pdf",
+    "group": "S-U",
+    "page_id": 1796,
+    "also_in_groups": [
+      "Statewide Snakebite Guidelines"
+    ]
+  },
+  {
+    "title": "Snakebite — Management of SUSPECTED Snakebite in Victoria",
+    "heading": "Snakebite",
+    "anchor": "Management of SUSPECTED Snakebite in Victoria",
+    "url": "https://www.austin.org.au/Assets/Files/Snake%20Bite%20in%20Victoria%20Guideline%20(suspected)_V4_1_2026.pdf",
+    "group": "S-U",
+    "page_id": 1796,
+    "also_in_groups": [
+      "Statewide Snakebite Guidelines"
+    ]
+  },
+  {
+    "title": "Sodium Bicarbonate",
+    "heading": "Sodium Bicarbonate",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Sodium%20bicarbonate_jan2025.pdf",
+    "group": "Antidotes / Antivenoms",
+    "page_id": 1816,
+    "also_in_groups": []
+  },
+  {
+    "title": "Sodium Nitrite/Sodium Nitrate",
+    "heading": "Sodium Nitrite/Sodium Nitrate",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Na%20Nitrate%20Guideline_V2_1_2026.pdf",
+    "group": "S-U",
+    "page_id": 1796,
+    "also_in_groups": []
+  },
+  {
+    "title": "Sodium Thiosulfate",
+    "heading": "Sodium Thiosulfate",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Sodium%20Thiosulfate_V3_12_2025.pdf",
+    "group": "Antidotes / Antivenoms",
+    "page_id": 1816,
+    "also_in_groups": []
+  },
+  {
+    "title": "Sotalol",
+    "heading": "Sotalol",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Beta%20Blockers_V3_3_2025.pdf",
+    "group": "S-U",
+    "page_id": 1796,
+    "also_in_groups": []
+  },
+  {
+    "title": "Sulphonylureas",
+    "heading": "Sulphonylureas",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Sulphonylureas%20Guideline.July%202023[1].pdf",
+    "group": "S-U",
+    "page_id": 1796,
+    "also_in_groups": []
+  },
+  {
+    "title": "Suspected Snakebite Pathway — Clinical Pathway for Emergency Department",
+    "heading": "Suspected Snakebite Pathway",
+    "anchor": "Clinical Pathway for Emergency Department",
+    "url": "https://www.austin.org.au/Assets/Files/emergency_department_suspected_snake_bite_pathway_FEB2026.pdf",
+    "group": "Statewide Snakebite Guidelines",
+    "page_id": 4712,
+    "also_in_groups": []
+  },
+  {
+    "title": "Suspected Snakebite Pathway — Clinical Pathway for Urgent Care Centre",
+    "heading": "Suspected Snakebite Pathway",
+    "anchor": "Clinical Pathway for Urgent Care Centre",
+    "url": "https://www.austin.org.au/Assets/Files/urgent_care_centre_snake_bite_pathway_FEB2026.pdf",
+    "group": "Statewide Snakebite Guidelines",
+    "page_id": 4712,
+    "also_in_groups": []
+  },
+  {
+    "title": "Synthetic Cannabinoid Receptor Agonists (SCRAs)",
+    "heading": "Synthetic Cannabinoid Receptor Agonists (SCRAs)",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/SDAC%20Guideline_April%202024.pdf",
+    "group": "S-U",
+    "page_id": 1796,
+    "also_in_groups": [
+      "Decontamination"
+    ]
+  },
+  {
+    "title": "Tapentadol",
+    "heading": "Tapentadol",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Tramadol%20and%20Tapentadol%20Guideline.Final%20June%202023[1].pdf",
+    "group": "S-U",
+    "page_id": 1796,
+    "also_in_groups": []
+  },
+  {
+    "title": "Thyroxine",
+    "heading": "Thyroxine",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Thyroxine%20Guideline.Oct%202023[1].pdf",
+    "group": "S-U",
+    "page_id": 1796,
+    "also_in_groups": []
+  },
+  {
+    "title": "Urinary Alkalinisation",
+    "heading": "Urinary Alkalinisation",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Urinary%20Alkalinisation%20Guideline_Feb%202023[2].pdf",
+    "group": "Enhanced elimination",
+    "page_id": 1828,
+    "also_in_groups": []
+  },
+  {
+    "title": "Vitamin K1",
+    "heading": "Vitamin K1",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/Vitamin%20K1%20V3_4_2025.pdf",
+    "group": "Antidotes / Antivenoms",
+    "page_id": 1816,
+    "also_in_groups": []
+  },
+  {
+    "title": "Whole Bowel Irrigation",
+    "heading": "Whole Bowel Irrigation",
+    "anchor": "Clinical Guideline",
+    "url": "https://www.austin.org.au/Assets/Files/WBI%20Guideline%20V4%2012-2024.pdf",
+    "group": "Decontamination",
+    "page_id": 1810,
+    "also_in_groups": []
+  }
+]
